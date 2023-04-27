@@ -2,6 +2,9 @@
 
 ## Plan for R5
 
+### Changelog R5
+
+* Replace fhirversion 4.0.1 with 5.0.0 in all xml files
 
 ## Plan for R4
 
