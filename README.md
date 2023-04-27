@@ -5,6 +5,7 @@
 ### Changelog R5
 
 * Replace fhirversion 4.0.1 with 5.0.0 in all xml files
+* AllergyIntolerance - removed asserter and recorder rules and replaced reaction.manifestation.coding with reaction.manifestation.concept.coding (CodableReference type)
 
 ## Plan for R4
 

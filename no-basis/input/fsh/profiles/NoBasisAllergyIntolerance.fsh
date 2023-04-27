@@ -29,14 +29,14 @@ Description: "Basis profile for allergy intolerance, to be used in Norway. The p
 * code.coding[FESTMedication] ^sliceName = "FESTMedication"
 * code.coding[FESTMedication].system = "http://ehelse.no/FESTMedication" (exactly)
 * patient only Reference(NoBasisPatient)
-* recorder only Reference(Practitioner or PractitionerRole or Patient or RelatedPerson or NoBasisPatient or NoBasisPractitioner or NoBasisPractitionerRole or NoBasisRelatedPerson)
-* asserter only Reference(Patient or RelatedPerson or Practitioner or PractitionerRole or NoBasisPractitioner or NoBasisPractitionerRole or NoBasisPatient or NoBasisRelatedPerson)
+//* recorder only Reference(Practitioner or PractitionerRole or Patient or RelatedPerson or NoBasisPatient or NoBasisPractitioner or NoBasisPractitionerRole or NoBasisRelatedPerson)
+//* asserter only Reference(Patient or RelatedPerson or Practitioner or PractitionerRole or NoBasisPractitioner or NoBasisPractitionerRole or NoBasisPatient or NoBasisRelatedPerson)
 * reaction 1..1
 * reaction.manifestation ..1
 * reaction.manifestation ^definition = "Clinical symptoms and/or signs that are observed or associated with the adverse reaction event. Coding system 7497 shall be used."
-* reaction.manifestation.coding 1..1
-* reaction.manifestation.coding.system 1..
-* reaction.manifestation.coding.system = "urn:uid:2.16.578.1.12.4.1.1.7497" (exactly)
-* reaction.manifestation.coding.code 1..
-* reaction.manifestation.coding.display 1..
+* reaction.manifestation.concept.coding 1..1
+* reaction.manifestation.concept.coding.system 1..
+* reaction.manifestation.concept.coding.system = "urn:uid:2.16.578.1.12.4.1.1.7497" (exactly)
+* reaction.manifestation.concept.coding.code 1..
+* reaction.manifestation.concept.coding.display 1..
 * reaction.severity ^definition = "Clinical assessment of the severity of the reaction event as a whole, potentially considering multiple different manifestations. Mapping to KI standard  is Severe=Alvorlig. Moderate=Mild=Mindre alvorlig."
