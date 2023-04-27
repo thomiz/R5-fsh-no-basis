@@ -6,6 +6,7 @@
 
 * Replace fhirversion 4.0.1 with 5.0.0 in all xml files
 * AllergyIntolerance - removed asserter and recorder rules and replaced reaction.manifestation.coding with reaction.manifestation.concept.coding (CodableReference type)
+* Appointment (old version to be [replaced](https://github.com/HL7Norway/NoBasisAppointment/blob/main/input/fsh/NoBasisAppointment.fsh)) cancelationReason replaced with cancellationReason
 
 ## Plan for R4
 

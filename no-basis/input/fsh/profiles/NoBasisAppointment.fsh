@@ -4,8 +4,8 @@ Id: no-basis-Appointment
 Title: "no-basis-Appointment"
 Description: "Base profile for Norwegian Appointment information. Defined by HL7 Norway. This profile identifies a set of minimum expectations for an Appointment resource when creating, searching and retrieving compositions by defining which coding system(s) must be present when using this profile. The basis profile is open, but derived profiles should close down the information elements according to specification relevant to the use-case."
 * ^status = #draft
-* cancelationReason ^code.system = "urn:oid:2.16.578.1.12.4.1.1.8445"
-* cancelationReason ^code.display = "Volven kodeverk 8445 - Ventetid sluttkode"
+* cancellationReason ^code.system = "urn:oid:2.16.578.1.12.4.1.1.8445"
+* cancellationReason ^code.display = "Volven kodeverk 8445 - Ventetid sluttkode"
 * appointmentType.coding ^slicing.discriminator.type = #value
 * appointmentType.coding ^slicing.discriminator.path = "$this"
 * appointmentType.coding ^slicing.rules = #closed
