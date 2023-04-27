@@ -6,7 +6,7 @@
   <title value="no-basis-partof" />
   <status value="draft" />
   <description value="This basis extension mirrors the Encounter.partOF-attribute. The partOf-attribute enables booking of a set of related appointments with a set of sub-appointments being linked to the main appointment in the same way as encounters are being linked." />
-  <fhirVersion value="4.0.1" />
+  <fhirVersion value="5.0.0" />
   <kind value="complex-type" />
   <abstract value="false" />
   <context>

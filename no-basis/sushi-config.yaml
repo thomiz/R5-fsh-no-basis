@@ -4,14 +4,14 @@
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 canonical: http://hl7.no/fhir
 name: NoBasis
-fhirVersion: 4.0.1
+fhirVersion: 5.0.0
 FSHOnly: false
 applyExtensionMetadataToRoot: false
 id: hl7.fhir.no.basis
 status: active
-version: 2.3.0
+version: 3.0.0
 releaseLabel: ci-build
-copyrightYear: 2021+
+copyrightYear: 2023+
 jurisdiction: urn:iso:std:iso:3166#NO "Norway"
 
 # ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
