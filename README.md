@@ -10,6 +10,7 @@
 * NoBasisEndpoint - payloadType and payloadMimeType replaced with payload.type anc payload.mimeType
 * NoBasisOrganization - address element removed use contact.address
 * NoBasisMedication - moved "form" rules to "doseForm" element
+* NoBasisMedicationStatement - medication.Reference removed replaced with CodeableReference.reference, slicing rule moved to that element
 * 
 
 ## Plan for R4
