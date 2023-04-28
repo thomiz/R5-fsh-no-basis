@@ -11,7 +11,7 @@
 * NoBasisOrganization - address element removed use contact.address
 * NoBasisMedication - moved "form" rules to "doseForm" element
 * NoBasisMedicationStatement - medication.Reference removed replaced with CodeableReference.reference, slicing rule moved to that element
-* 
+  * reasonCode replaced with reaason and CodeableReference type, replace reasonCode slicing rules with reason.concept slicing rules
 
 ## Plan for R4
 
