@@ -12,6 +12,7 @@
 * NoBasisMedication - moved "form" rules to "doseForm" element
 * NoBasisMedicationStatement - medication.Reference removed replaced with CodeableReference.reference, slicing rule moved to that element
   * reasonCode replaced with reaason and CodeableReference type, replace reasonCode slicing rules with reason slicing rules
+  * Removed medication slicing as slicing of singular elements is not allowed.
 * NoBasisSubstance - replaced code.coding with code.concept.coding (CodeableReference)
 * no-basis-middlename SearchParameter - remove xpath expression
 
