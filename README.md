@@ -12,7 +12,7 @@
 * NoBasisMedication - moved "form" rules to "doseForm" element
 * NoBasisMedicationStatement - medication.Reference removed replaced with CodeableReference.reference, slicing rule moved to that element
   * reasonCode replaced with reaason and CodeableReference type, replace reasonCode slicing rules with reason slicing rules
-* NoBasisSubstance - replaced code.coding with code.concept (CodeableReference)
+* NoBasisSubstance - replaced code.coding with code.concept.coding (CodeableReference)
 
 ## Plan for R4
 
