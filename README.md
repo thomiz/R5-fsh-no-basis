@@ -15,8 +15,12 @@
   * Removed medication slicing as slicing of singular elements is not allowed.
 * NoBasisSubstance - replaced code.coding with code.concept.coding (CodeableReference)
 * no-basis-middlename SearchParameter - remove xpath expression
+* Direktoratet for ehelse organization.fsh - address -> contact.address
 
-Direktoratet for ehelse organization.fsh - address -> contact.address
+### TODO R5
+
+* package-list.json
+* publication-request.json
 
 ## Plan for R4
 

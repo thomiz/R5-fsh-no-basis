@@ -1,11 +1,11 @@
 # Introduction  
 
-|Version|2.0.17-alpha|
+|Version|3.0.0-alpha|
 |-|-|
-|Publish date|2019-06-27|
-|IG namespace|http://hl7.no/fhir/ImplementationGuide/no-basis-ImplementationGuide-v2015 |
-|Latest package definition|https://simplifier.net/packages/hl7.fhir.no.basis/2.0.17-alpha |
-|Last bugfix|2021-06-21|
+|Publish date|2023-04-28|
+|IG namespace|http://hl7.no/fhir/ImplementationGuide/no-basis-ImplementationGuide-v300-a |
+|Latest package definition|https://simplifier.net/packages/hl7.fhir.no.basis/3.0.0-alpha |
+|Last bugfix|2023-04-28|
 
 The Norwegian basisprofiles are developed by HL7 Norway and The Norwegian Directorate of eHealth in cooperation with the industry. The profiles are use-case independent and have several purposes:
 
