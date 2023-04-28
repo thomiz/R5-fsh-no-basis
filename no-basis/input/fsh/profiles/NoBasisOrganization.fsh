@@ -41,7 +41,7 @@ Description: "Basisprofil for Norwegian Organization information. Defined by The
 * type[organisatoriskBetegnelse].coding.system 1..
 * type[organisatoriskBetegnelse].coding.system = "urn:oid:2.16.578.1.12.4.1.1.8624" (exactly)
 * type[organisatoriskBetegnelse].coding.code 1..
-* address only NoBasisAddress
+//* address only NoBasisAddress
 * partOf only Reference(Organization or NoBasisOrganization)
 * contact.address only NoBasisAddress
 * endpoint ^definition = "Technical endpoints providing access to services operated for the organization.\r\n\r\nno-basis don't use this element to reference endpoints registered in the Norwegian Address register (endpoints connected to a kommunikasjonspart in tjenestebasert adressering). Endpoints registered in the Norwegian Address register should only be referenced through a kommunikasjonspart-Organization resource."

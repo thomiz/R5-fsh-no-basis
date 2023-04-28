@@ -8,6 +8,9 @@
 * AllergyIntolerance - removed asserter and recorder rules and replaced reaction.manifestation.coding with reaction.manifestation.concept.coding (CodableReference type)
 * Appointment (old version to be [replaced](https://github.com/HL7Norway/NoBasisAppointment/blob/main/input/fsh/NoBasisAppointment.fsh)) cancelationReason replaced with cancellationReason
 * NoBasisEndpoint - payloadType and payloadMimeType replaced with payload.type anc payload.mimeType
+* NoBasisOrganization - address element removed use contact.address
+* NoBasisMedication - moved "form" rules to "doseForm" element
+* 
 
 ## Plan for R4
 
