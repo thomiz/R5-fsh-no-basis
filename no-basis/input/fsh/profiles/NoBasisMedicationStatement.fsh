@@ -26,17 +26,17 @@ Description: "Basis profile for medication statement, to be used in Norway. The 
 * medication.reference ^sliceName = "medicationReference"
 * medication.reference ^type.aggregation = #bundled
 * subject only Reference(NoBasisPatient)
-* reason.concept ^slicing.discriminator.type = #value
-* reason.concept ^slicing.discriminator.path = "coding.system"
-* reason.concept ^slicing.rules = #open
-* reason.concept contains
+* reason ^slicing.discriminator.type = #value
+* reason ^slicing.discriminator.path = "coding.system"
+* reason ^slicing.rules = #open
+* reason contains
     ICPC2 0..1 and
     ICD10 0..1
-* reason.concept[ICPC2].coding.system 1..
-* reason.concept[ICPC2].coding.system = "urn:oid:2.16.578.1.12.4.1.1.7170" (exactly)
-* reason.concept[ICPC2].coding.code 1..
-* reason.concept[ICPC2].coding.display 1..
-* reason.concept[ICD10].coding.system 1..
-* reason.concept[ICD10].coding.system = "urn:oid:2.16.578.1.12.4.1.1.7110" (exactly)
-* reason.concept[ICD10].coding.code 1..
-* reason.concept[ICD10].coding.display 1..
+* reason[ICPC2].concept.coding.system 1..
+* reason[ICPC2].concept.coding.system = "urn:oid:2.16.578.1.12.4.1.1.7170" (exactly)
+* reason[ICPC2].concept.coding.code 1..
+* reason[ICPC2].concept.coding.display 1..
+* reason[ICD10].concept.coding.system 1..
+* reason[ICD10].concept.coding.system = "urn:oid:2.16.578.1.12.4.1.1.7110" (exactly)
+* reason[ICD10].concept.coding.code 1..
+* reason[ICD10].concept.coding.display 1..
