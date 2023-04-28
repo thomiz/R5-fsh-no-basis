@@ -7,7 +7,7 @@ Description: "Basis profile for Substances to be used in Norway. The profile is 
 * ^status = #active
 * ^date = "2019-07-03"
 * . ^definition = "A homogeneous material with a definite composition.\r\n\r\nThe profile is adapted to use FEST information for coding the substance."
-* code.concept.coding.coding ^slicing.discriminator.type = #value
+* code.concept.coding ^slicing.discriminator.type = #value
 * code.concept.coding ^slicing.discriminator.path = "system"
 * code.concept.coding ^slicing.rules = #openAtEnd
 * code.concept.coding contains FEST-Substance 0..1

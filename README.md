@@ -13,6 +13,7 @@
 * NoBasisMedicationStatement - medication.Reference removed replaced with CodeableReference.reference, slicing rule moved to that element
   * reasonCode replaced with reaason and CodeableReference type, replace reasonCode slicing rules with reason slicing rules
 * NoBasisSubstance - replaced code.coding with code.concept.coding (CodeableReference)
+* no-basis-middlename SearchParameter - remove xpath expression
 
 ## Plan for R4
 
