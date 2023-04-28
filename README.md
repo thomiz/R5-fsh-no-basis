@@ -15,6 +15,8 @@
 * NoBasisSubstance - replaced code.coding with code.concept.coding (CodeableReference)
 * no-basis-middlename SearchParameter - remove xpath expression
 
+Direktoratet for ehelse organization.fsh - address -> contact.address
+
 ## Plan for R4
 
 **Publishing new version**
