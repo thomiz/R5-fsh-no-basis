@@ -1,0 +1,79 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.no/fhir/CodeSystem/no-basis-marital-status.codesystem> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "no-basis-marital-status.codesystem"] ; # 
+  fhir:meta [
+     fhir:versionId [ fhir:v "1" ] ;
+     fhir:lastUpdated [ fhir:v "2019-05-07T00:00:00+00:00"^^xsd:dateTime ]
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://hl7.no/fhir/CodeSystem/no-basis-marital-status</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">uoppgitt<a name=\"no-basis-marital-status.codesystem-uoppgitt\"> </a></td><td>Uoppgitt</td><td>sivilstand er ikke stadfestet med godkjent grunnlag</td></tr><tr><td style=\"white-space:nowrap\">ugift<a name=\"no-basis-marital-status.codesystem-ugift\"> </a></td><td>Ugift</td><td>person som aldri har inngått ekteskap</td></tr><tr><td style=\"white-space:nowrap\">gift<a name=\"no-basis-marital-status.codesystem-gift\"> </a></td><td>Gift</td><td>person som er i et ekteskap</td></tr><tr><td style=\"white-space:nowrap\">enkeEllerEnkemann<a name=\"no-basis-marital-status.codesystem-enkeEllerEnkemann\"> </a></td><td>Enke eller enkemann</td><td>gjenlevende person fra et ekteskap</td></tr><tr><td style=\"white-space:nowrap\">skilt<a name=\"no-basis-marital-status.codesystem-skilt\"> </a></td><td>Skilt</td><td>person som er lovlig skilt fra tidligere ektefelle</td></tr><tr><td style=\"white-space:nowrap\">separert<a name=\"no-basis-marital-status.codesystem-separert\"> </a></td><td>Separert</td><td>person som er i en separasjonsperiode fra sin ektefelle</td></tr><tr><td style=\"white-space:nowrap\">registrertPartner<a name=\"no-basis-marital-status.codesystem-registrertPartner\"> </a></td><td>Registrert partner</td><td>person som er i et partnerskap iht partnerskapsloven</td></tr><tr><td style=\"white-space:nowrap\">separertPartner<a name=\"no-basis-marital-status.codesystem-separertPartner\"> </a></td><td>Separert partner</td><td>person som er i en separasjonsperiode fra sin partner</td></tr><tr><td style=\"white-space:nowrap\">skiltPartner<a name=\"no-basis-marital-status.codesystem-skiltPartner\"> </a></td><td>Skilt partner</td><td>person som er lovlig skilt fra tidligere partner</td></tr><tr><td style=\"white-space:nowrap\">gjenlevende_partner<a name=\"no-basis-marital-status.codesystem-gjenlevende_partner\"> </a></td><td>Gjenlevende partner</td><td>gjenlevende person fra et partnerskap</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://hl7.no/fhir/CodeSystem/no-basis-marital-status"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "3.0.0"] ; # 
+  fhir:name [ fhir:v "NoBasisMaritalStatus"] ; # 
+  fhir:title [ fhir:v "no-basis-marital-status.codesystem"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:date [ fhir:v "2019-05-07T00:00:00+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Copy of Codes from Sivilstandstype defined by Skatteetaten"] ; # 
+  fhir:description [ fhir:v "Copy of Codes from Sivilstandstype defined by Skatteetaten"] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "NO" ] ;
+       fhir:display [ fhir:v "Norway" ]
+     ] )
+  ] ) ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "10"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "uoppgitt" ] ;
+     fhir:display [ fhir:v "Uoppgitt" ] ;
+     fhir:definition [ fhir:v "sivilstand er ikke stadfestet med godkjent grunnlag" ]
+  ] [
+     fhir:code [ fhir:v "ugift" ] ;
+     fhir:display [ fhir:v "Ugift" ] ;
+     fhir:definition [ fhir:v "person som aldri har inngått ekteskap" ]
+  ] [
+     fhir:code [ fhir:v "gift" ] ;
+     fhir:display [ fhir:v "Gift" ] ;
+     fhir:definition [ fhir:v "person som er i et ekteskap" ]
+  ] [
+     fhir:code [ fhir:v "enkeEllerEnkemann" ] ;
+     fhir:display [ fhir:v "Enke eller enkemann" ] ;
+     fhir:definition [ fhir:v "gjenlevende person fra et ekteskap" ]
+  ] [
+     fhir:code [ fhir:v "skilt" ] ;
+     fhir:display [ fhir:v "Skilt" ] ;
+     fhir:definition [ fhir:v "person som er lovlig skilt fra tidligere ektefelle" ]
+  ] [
+     fhir:code [ fhir:v "separert" ] ;
+     fhir:display [ fhir:v "Separert" ] ;
+     fhir:definition [ fhir:v "person som er i en separasjonsperiode fra sin ektefelle" ]
+  ] [
+     fhir:code [ fhir:v "registrertPartner" ] ;
+     fhir:display [ fhir:v "Registrert partner" ] ;
+     fhir:definition [ fhir:v "person som er i et partnerskap iht partnerskapsloven" ]
+  ] [
+     fhir:code [ fhir:v "separertPartner" ] ;
+     fhir:display [ fhir:v "Separert partner" ] ;
+     fhir:definition [ fhir:v "person som er i en separasjonsperiode fra sin partner" ]
+  ] [
+     fhir:code [ fhir:v "skiltPartner" ] ;
+     fhir:display [ fhir:v "Skilt partner" ] ;
+     fhir:definition [ fhir:v "person som er lovlig skilt fra tidligere partner" ]
+  ] [
+     fhir:code [ fhir:v "gjenlevende_partner" ] ;
+     fhir:display [ fhir:v "Gjenlevende partner" ] ;
+     fhir:definition [ fhir:v "gjenlevende person fra et partnerskap" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+
