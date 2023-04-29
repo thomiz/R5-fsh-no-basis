@@ -22,6 +22,7 @@
 * Directory of published version script
 * Using the official build.fhir.org build method
 * Publication place at hl7.no
+* [Package publication](https://confluence.hl7.org/pages/viewpage.action?pageId=97454344#FHIRPackageRegistryUserDocumentation-Addingapackagetotheregistry)
 * package-list.json
 * publication-request.json
 
