@@ -19,6 +19,9 @@
 
 ### TODO R5
 
+* Directory of published version script
+* Using the official build.fhir.org build method
+* Publication place at hl7.no
 * package-list.json
 * publication-request.json
 
@@ -33,9 +36,9 @@
   * Generering av history.html page **-publish** IG publisher option?
 
 **Ta inn markdown fra SIMPLIFIER til ig-publisher**
-  * Sørge for at markdown filene blir med i generert IG
-  * egne md/html sider med dokumentasjonen legges i input/pages eller input/pagecontent katalog før man kjører igpublisher/sushi
-  * sushi-config.yaml må nevne sidene 
+* Sørge for at markdown filene blir med i generert IG
+* egne md/html sider med dokumentasjonen legges i input/pages eller input/pagecontent katalog før man kjører igpublisher/sushi
+* sushi-config.yaml må nevne sidene
 
 ~~~ yaml
   menu:
