@@ -18,7 +18,7 @@ The middlename should be a norwegian middlename as defined by norwegian legislat
     <valueCode value="can-bind"/>
   </extension>
   <url value="http://hl7.no/fhir/StructureDefinition/no-basis-middlename"/>
-  <version value="3.0.0"/>
+  <version value="3.0.0-alpha"/>
   <name value="NoBasisMiddlename"/>
   <title value="no-basis-middlename"/>
   <status value="active"/>

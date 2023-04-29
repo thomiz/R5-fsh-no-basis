@@ -17,7 +17,7 @@
      fhir:value [ fhir:v "can-bind" ]
   ] ) ; # 
   fhir:url [ fhir:v "http://ehelse.no/fhir/StructureDefinition/no-basis-relatedperson-person-reference"^^xsd:anyURI] ; # 
-  fhir:version [ fhir:v "3.0.0"] ; # 
+  fhir:version [ fhir:v "3.0.0-alpha"] ; # 
   fhir:name [ fhir:v "NoBasisRelatedpersonPersonReference"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:date [ fhir:v "2021-04-07"^^xsd:date] ; # 

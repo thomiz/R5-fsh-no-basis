@@ -1,6 +1,6 @@
 {
   "package": "hl7.fhir.no.basis",
-  "version": "3.0.0",
+  "version": "3.0.0-alpha",
   "fhirVersion": "5.0.0",
   "jurisdiction": "NO",
   "extensions": [
@@ -549,7 +549,7 @@
       "StructureDefinition.snapshot.element.binding"
     ],
     "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency": [
-      "ImplementationGuide"
+      "ImplementationGuide.definition"
     ],
     "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter": [
       "ImplementationGuide.definition"

@@ -19,7 +19,7 @@
     <valueCode value="can-bind"/>
   </extension>
   <url value="http://hl7.no/fhir/StructureDefinition/no-basis-sourceofinformation"/>
-  <version value="3.0.0"/>
+  <version value="3.0.0-alpha"/>
   <name value="NoBasisSourceofinformation"/>
   <title value="no-basis-sourceofinformation"/>
   <status value="active"/>

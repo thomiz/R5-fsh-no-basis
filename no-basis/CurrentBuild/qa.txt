@@ -1,16 +1,16 @@
 ﻿NoBasis : Validation Results
 =========================================
 
-err = 83, warn = 168, info = 18
-IG Publisher Version: 1.3.5
-Generated Fri Apr 28 21:36:34 UTC 2023. FHIR version 5.0.0 for hl7.fhir.no.basis#3.0.0 (canonical = http://hl7.no/fhir)
+err = 82, warn = 168, info = 18
+IG Publisher Version: 1.3.6
+Generated Sat Apr 29 06:51:05 UTC 2023. FHIR version 5.0.0 for hl7.fhir.no.basis#3.0.0-alpha (canonical = http://hl7.no/fhir)
  Build Errors : 182 / 12 / 0
  /github/workspace/no-basis/fsh-generated/resources/CodeSystem-no-basis-connection-type.codesystem : 5 / 0 / 2
  /github/workspace/no-basis/fsh-generated/resources/CodeSystem-no-basis-family-relation.codesystem : 5 / 0 / 2
  /github/workspace/no-basis/fsh-generated/resources/CodeSystem-no-basis-location-type.codesystem : 5 / 0 / 2
  /github/workspace/no-basis/fsh-generated/resources/CodeSystem-no-basis-marital-status.codesystem : 5 / 0 / 2
  /github/workspace/no-basis/fsh-generated/resources/CodeSystem-no-basis-parental-responsibility.codesystem : 5 / 0 / 2
- /github/workspace/no-basis/fsh-generated/resources/ImplementationGuide-hl7.fhir.no.basis : 1 / 1 / 1
+ /github/workspace/no-basis/fsh-generated/resources/ImplementationGuide-hl7.fhir.no.basis : 0 / 1 / 1
  /github/workspace/no-basis/fsh-generated/resources/NamingSystem-no-basis-bydelsnummer : 0 / 0 / 1
  /github/workspace/no-basis/fsh-generated/resources/NamingSystem-no-basis-dnummer : 0 / 0 / 1
  /github/workspace/no-basis/fsh-generated/resources/NamingSystem-no-basis-dufnummer : 0 / 0 / 1
@@ -302,8 +302,7 @@ ERROR: CodeSystem/no-basis-parental-responsibility.codesystem: CodeSystem: The S
 ERROR: CodeSystem/no-basis-parental-responsibility.codesystem: CodeSystem: The ShareableCodeSystem profile says that the caseSensitive element is mandatory, but it is not found. HL7 Published code systems SHALL conform to the ShareableCodeSystem profile
 ERROR: /github/workspace/no-basis/fsh-generated/resources/CodeSystem-no-basis-parental-responsibility.codesystem: URL Mismatch http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility.codesystem vs http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility
 == fsh-generated/resources/ImplementationGuide-hl7.fhir.no.basis.json ==
-WARNING: /github/workspace/no-basis/fsh-generated/resources/ImplementationGuide-hl7.fhir.no.basis: Unknown Parameters: [releaselabel, fmm-definition, excludelogbinaryformat]
-ERROR: ImplementationGuide/hl7.fhir.no.basis: ImplementationGuide: The extension http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency is not allowed to be used at this point (allowed = e:ImplementationGuide.definition; this element is [ImplementationGuide])
+WARNING: /github/workspace/no-basis/fsh-generated/resources/ImplementationGuide-hl7.fhir.no.basis: Unknown Parameters: []
 == fsh-generated/resources/NamingSystem-no-basis-bydelsnummer.json ==
 == fsh-generated/resources/NamingSystem-no-basis-dnummer.json ==
 == fsh-generated/resources/NamingSystem-no-basis-dufnummer.json ==
@@ -318,7 +317,7 @@ INFORMATION: Patient/EspenEksempel: Patient.address[0].extension[0].extension[0]
 WARNING: Patient/EspenEksempel: Patient.address[0].extension[0].extension[0].value.ofType(Coding): ValueSet urn:oid:2.16.578.1.12.4.1.1.3402 not found by validator
 ERROR: Patient/EspenEksempel: Patient.communication[0].language: No code provided, and a code is required from the value set 'All Languages' (http://hl7.org/fhir/ValueSet/all-languages|5.0.0)
 == fsh-generated/resources/Patient-JanniceSoreng.json ==
-INFORMATION: Patient/JanniceSoreng: Patient.identifier[1]: This element does not match any known slice defined in the profile http://hl7.no/fhir/StructureDefinition/no-basis-Patient|3.0.0
+INFORMATION: Patient/JanniceSoreng: Patient.identifier[1]: This element does not match any known slice defined in the profile http://hl7.no/fhir/StructureDefinition/no-basis-Patient|3.0.0-alpha
 ERROR: Patient/JanniceSoreng: Patient.extension[0].extension[0].value.ofType(CodeableConcept): Found a reference to a CodeSystem (urn:iso:std:iso:3166) where a ValueSet belongs
 INFORMATION: Patient/JanniceSoreng: Patient.address[0].extension[0].extension[0].value.ofType(Coding): Code System URI 'urn:oid:2.16.578.1.12.4.1.1.3402' is unknown so the code cannot be validated
 WARNING: Patient/JanniceSoreng: Patient.address[0].extension[0].extension[0].value.ofType(Coding): ValueSet urn:oid:2.16.578.1.12.4.1.1.3402 not found by validator
@@ -327,7 +326,7 @@ WARNING: Patient/JanniceSoreng: Patient.address[0].district.extension[0].value.o
 WARNING: Patient/JanniceSoreng: Patient.contact[0].relationship[1]: No code provided, and a code should be provided from the value set 'Patient Contact Relationship ' (http://hl7.org/fhir/ValueSet/patient-contactrelationship|5.0.0)
 ERROR: Patient/JanniceSoreng: Patient.communication[0].language: No code provided, and a code is required from the value set 'All Languages' (http://hl7.org/fhir/ValueSet/all-languages|5.0.0)
 == fsh-generated/resources/Patient-JanniceSorengTo.json ==
-INFORMATION: Patient/JanniceSorengTo: Patient.identifier[1]: This element does not match any known slice defined in the profile http://hl7.no/fhir/StructureDefinition/no-basis-Patient|3.0.0
+INFORMATION: Patient/JanniceSorengTo: Patient.identifier[1]: This element does not match any known slice defined in the profile http://hl7.no/fhir/StructureDefinition/no-basis-Patient|3.0.0-alpha
 ERROR: Patient/JanniceSorengTo: Patient.extension[0].extension[0].value.ofType(CodeableConcept): Found a reference to a CodeSystem (urn:iso:std:iso:3166) where a ValueSet belongs
 INFORMATION: Patient/JanniceSorengTo: Patient.address[0].extension[0].extension[0].value.ofType(Coding): Code System URI 'urn:oid:2.16.578.1.12.4.1.1.3402' is unknown so the code cannot be validated
 WARNING: Patient/JanniceSorengTo: Patient.address[0].extension[0].extension[0].value.ofType(Coding): ValueSet urn:oid:2.16.578.1.12.4.1.1.3402 not found by validator

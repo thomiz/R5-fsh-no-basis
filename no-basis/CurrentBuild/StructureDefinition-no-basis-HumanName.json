@@ -14,7 +14,7 @@
     "valueInteger" : 1
   }],
   "url" : "http://hl7.no/fhir/StructureDefinition/no-basis-HumanName",
-  "version" : "3.0.0",
+  "version" : "3.0.0-alpha",
   "name" : "NoBasisHumanName",
   "title" : "no-basis-HumanName",
   "status" : "active",

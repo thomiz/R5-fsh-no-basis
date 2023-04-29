@@ -14,7 +14,7 @@
     "valueCode" : "can-bind"
   }],
   "url" : "http://hl7.no/fhir/StructureDefinition/no-basis-address-official",
-  "version" : "3.0.0",
+  "version" : "3.0.0-alpha",
   "name" : "NoBasisAddressOfficial",
   "title" : "no-basis-address-official",
   "status" : "active",

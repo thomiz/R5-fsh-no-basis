@@ -5,14 +5,11 @@
   <text>
     <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>NoBasis</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.no/fhir/ImplementationGuide/hl7.fhir.no.basis</pre></div>
   </text>
-  <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency">
-    <valueCode value="hl7.fhir.uv.tools#current"/>
-  </extension>
   <url value="http://hl7.no/fhir/ImplementationGuide/hl7.fhir.no.basis"/>
-  <version value="3.0.0"/>
+  <version value="3.0.0-alpha"/>
   <name value="NoBasis"/>
   <status value="active"/>
-  <date value="2023-04-28T21:32:24+00:00"/>
+  <date value="2023-04-29T06:49:35+00:00"/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>
@@ -231,6 +228,9 @@
       <extension url="value">
         <valueString value="true"/>
       </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency">
+      <valueCode value="hl7.fhir.uv.tools#current"/>
     </extension>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">

@@ -10,7 +10,7 @@
     "valueCode" : "can-bind"
   }],
   "url" : "http://ehelse.no/fhir/StructureDefinition/no-basis-relatedperson-person-reference",
-  "version" : "3.0.0",
+  "version" : "3.0.0-alpha",
   "name" : "NoBasisRelatedpersonPersonReference",
   "status" : "active",
   "date" : "2021-04-07",

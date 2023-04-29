@@ -19,7 +19,7 @@ Name or identifier should be supplied in the RelatedPerson.patient element, in a
     <valueCode value="can-bind"/>
   </extension>
   <url value="http://ehelse.no/fhir/StructureDefinition/no-basis-relatedperson-person-reference"/>
-  <version value="3.0.0"/>
+  <version value="3.0.0-alpha"/>
   <name value="NoBasisRelatedpersonPersonReference"/>
   <status value="active"/>
   <date value="2021-04-07"/>

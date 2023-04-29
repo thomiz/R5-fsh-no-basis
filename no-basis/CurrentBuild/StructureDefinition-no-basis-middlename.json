@@ -14,7 +14,7 @@
     "valueCode" : "can-bind"
   }],
   "url" : "http://hl7.no/fhir/StructureDefinition/no-basis-middlename",
-  "version" : "3.0.0",
+  "version" : "3.0.0-alpha",
   "name" : "NoBasisMiddlename",
   "title" : "no-basis-middlename",
   "status" : "active",

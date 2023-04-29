@@ -17,7 +17,7 @@
      fhir:value [ fhir:v "can-bind" ]
   ] ) ; # 
   fhir:url [ fhir:v "http://hl7.no/fhir/StructureDefinition/no-basis-municipalitycode"^^xsd:anyURI] ; # 
-  fhir:version [ fhir:v "3.0.0"] ; # 
+  fhir:version [ fhir:v "3.0.0-alpha"] ; # 
   fhir:name [ fhir:v "NoBasisMunicipalitycode"] ; # 
   fhir:title [ fhir:v "no-basis-municipalitycode"] ; # 
   fhir:status [ fhir:v "active"] ; # 

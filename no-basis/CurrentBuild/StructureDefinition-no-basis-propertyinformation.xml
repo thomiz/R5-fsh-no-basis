@@ -36,7 +36,7 @@
     <valueCode value="can-bind"/>
   </extension>
   <url value="http://hl7.no/fhir/StructureDefinition/no-basis-propertyinformation"/>
-  <version value="3.0.0"/>
+  <version value="3.0.0-alpha"/>
   <name value="NoBasisPropertyinformation"/>
   <title value="no-basis-propertyinformation"/>
   <status value="active"/>

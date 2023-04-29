@@ -10,7 +10,7 @@
     "valueCode" : "can-bind"
   }],
   "url" : "http://hl7.no/fhir/StructureDefinition/no-basis-sourceofinformation",
-  "version" : "3.0.0",
+  "version" : "3.0.0-alpha",
   "name" : "NoBasisSourceofinformation",
   "title" : "no-basis-sourceofinformation",
   "status" : "active",

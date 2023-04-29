@@ -18,7 +18,7 @@
     <valueCode value="can-bind"/>
   </extension>
   <url value="http://hl7.no/fhir/StructureDefinition/no-basis-prescriptiongroup"/>
-  <version value="3.0.0"/>
+  <version value="3.0.0-alpha"/>
   <name value="NoBasisPrescriptiongroup"/>
   <title value="no-basis-prescriptiongroup"/>
   <status value="active"/>

@@ -15,7 +15,7 @@
     <valueCode value="can-bind"/>
   </extension>
   <url value="http://hl7.no/fhir/StructureDefinition/no-basis-municipalitycode"/>
-  <version value="3.0.0"/>
+  <version value="3.0.0-alpha"/>
   <name value="NoBasisMunicipalitycode"/>
   <title value="no-basis-municipalitycode"/>
   <status value="active"/>

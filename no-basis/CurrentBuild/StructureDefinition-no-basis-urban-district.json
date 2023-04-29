@@ -14,7 +14,7 @@
     "valueCode" : "can-bind"
   }],
   "url" : "http://hl7.no/fhir/StructureDefinition/no-basis-urban-district",
-  "version" : "3.0.0",
+  "version" : "3.0.0-alpha",
   "name" : "NoBasisUrbanDistrict",
   "title" : "no-basis-urban-district",
   "status" : "active",
