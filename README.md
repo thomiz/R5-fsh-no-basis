@@ -19,6 +19,8 @@
 
 ### TODO R5
 
+* Plantuml diagrams
+  * [Guideance](https://build.fhir.org/ig/FHIR/ig-guidance/diagrams.html)
 * Directory of published version script
 * Using the official build.fhir.org build method
 * Publication place at hl7.no

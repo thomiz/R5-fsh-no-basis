@@ -1,7 +1,9 @@
 # Data types
 
-<a href="https://raw.githubusercontent.com/HL7Norway/basisprofiler-r4/master/Images/no-basis-Datatypes.png">
-<img src="https://raw.githubusercontent.com/HL7Norway/basisprofiler-r4/master/Images/no-basis-Datatypes.png" alt="Drawing" style="width: 100%;max-width: 1200px"/></a>
+<!-- <a href="https://raw.githubusercontent.com/HL7Norway/basisprofiler-r4/master/Images/no-basis-Datatypes.png">
+<img src="https://raw.githubusercontent.com/HL7Norway/basisprofiler-r4/master/Images/no-basis-Datatypes.png" alt="Drawing" style="width: 100%;max-width: 1200px"/></a> -->
+
+{% include no-basis-Address.svg %}
 
 ## no-basis-Address
 
