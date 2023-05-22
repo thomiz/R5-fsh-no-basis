@@ -1,16 +1,16 @@
 ﻿NoBasis : Validation Results
 =========================================
 
-err = 82, warn = 168, info = 18
-IG Publisher Version: 1.3.6
-Generated Sat Apr 29 06:51:05 UTC 2023. FHIR version 5.0.0 for hl7.fhir.no.basis#3.0.0-alpha (canonical = http://hl7.no/fhir)
+err = 82, warn = 167, info = 18
+IG Publisher Version: 1.3.11
+Generated Mon May 22 06:49:52 UTC 2023. FHIR version 5.0.0 for hl7.fhir.no.basis#3.0.0-alpha (canonical = http://hl7.no/fhir)
  Build Errors : 182 / 12 / 0
  /github/workspace/no-basis/fsh-generated/resources/CodeSystem-no-basis-connection-type.codesystem : 5 / 0 / 2
  /github/workspace/no-basis/fsh-generated/resources/CodeSystem-no-basis-family-relation.codesystem : 5 / 0 / 2
  /github/workspace/no-basis/fsh-generated/resources/CodeSystem-no-basis-location-type.codesystem : 5 / 0 / 2
  /github/workspace/no-basis/fsh-generated/resources/CodeSystem-no-basis-marital-status.codesystem : 5 / 0 / 2
  /github/workspace/no-basis/fsh-generated/resources/CodeSystem-no-basis-parental-responsibility.codesystem : 5 / 0 / 2
- /github/workspace/no-basis/fsh-generated/resources/ImplementationGuide-hl7.fhir.no.basis : 0 / 1 / 1
+ /github/workspace/no-basis/fsh-generated/resources/ImplementationGuide-hl7.fhir.no.basis : 0 / 0 / 1
  /github/workspace/no-basis/fsh-generated/resources/NamingSystem-no-basis-bydelsnummer : 0 / 0 / 1
  /github/workspace/no-basis/fsh-generated/resources/NamingSystem-no-basis-dnummer : 0 / 0 / 1
  /github/workspace/no-basis/fsh-generated/resources/NamingSystem-no-basis-dufnummer : 0 / 0 / 1
@@ -302,7 +302,6 @@ ERROR: CodeSystem/no-basis-parental-responsibility.codesystem: CodeSystem: The S
 ERROR: CodeSystem/no-basis-parental-responsibility.codesystem: CodeSystem: The ShareableCodeSystem profile says that the caseSensitive element is mandatory, but it is not found. HL7 Published code systems SHALL conform to the ShareableCodeSystem profile
 ERROR: /github/workspace/no-basis/fsh-generated/resources/CodeSystem-no-basis-parental-responsibility.codesystem: URL Mismatch http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility.codesystem vs http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility
 == fsh-generated/resources/ImplementationGuide-hl7.fhir.no.basis.json ==
-WARNING: /github/workspace/no-basis/fsh-generated/resources/ImplementationGuide-hl7.fhir.no.basis: Unknown Parameters: []
 == fsh-generated/resources/NamingSystem-no-basis-bydelsnummer.json ==
 == fsh-generated/resources/NamingSystem-no-basis-dnummer.json ==
 == fsh-generated/resources/NamingSystem-no-basis-dufnummer.json ==
@@ -464,7 +463,7 @@ ERROR: /github/workspace/no-basis/fsh-generated/resources/ValueSet-no-basis-conn
 ERROR: ValueSet.where(url = 'http://hl7.no/fhir/ValueSet/no-basis-documentreference-type'): Conformance resource /github/workspace/no-basis/fsh-generated/resources/ValueSet-no-basis-documentreference-type.valueset.json - the canonical URL (http://hl7.no/fhir/ValueSet/no-basis-documentreference-type.valueset) does not match the URL (http://hl7.no/fhir/ValueSet/no-basis-documentreference-type)
 ERROR: ValueSet.url: Resource id/url mismatch: no-basis-documentreference-type.valueset/http://hl7.no/fhir/ValueSet/no-basis-documentreference-type
 WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[0]: The code A00-1 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-INFORMATION: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[0]: The CodeSystem urn:oid:2.16.578.1.12.4.1.1.9602 is unknown; The provided code urn:oid:2.16.578.1.12.4.1.1.9602#A00-1 is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from Tx-Server)
+INFORMATION: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[0]: UNKNOWN_CODESYSTEM; The provided code http://hl7.org/fhir/ValueSet/@all is not in the value set '' (from Tx-Server)
 WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[1]: The code A01-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
 WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[2]: The code A02-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
 WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[3]: The code A03-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
@@ -554,7 +553,7 @@ WARNING: ValueSet.where(id = 'no-basis-service-type.valueset'): Error from serve
 ERROR: /github/workspace/no-basis/fsh-generated/resources/ValueSet-no-basis-service-type.valueset: URL Mismatch http://hl7.no/fhir/ValueSet/no-basis-service-type.valueset vs http://hl7.no/fhir/ValueSet/no-basis-service-type
 == input/examples/no-basis-Procedure-example.xml ==
 ERROR: Procedure/no-basis-Procedure-example: Procedure.subject: Unable to resolve resource with reference 'Patient/example'
-ERROR: Procedure/no-basis-Procedure-example: Procedure.performer[0].function.coding[0]: Unable to find code 8921000202108 in http://snomed.info/sct (version http://snomed.info/sct/900000000000207008/version/20230131); Unknown Code 8921000202108 in http://snomed.info/sct; The provided code http://snomed.info/sct#8921000202108 is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from Tx-Server) for 'http://snomed.info/sct#8921000202108'
+ERROR: Procedure/no-basis-Procedure-example: Procedure.performer[0].function.coding[0]: Unable to find code 8921000202108 in http://snomed.info/sct (version http://snomed.info/sct/900000000000207008/version/20230131); Unknown Code 8921000202108 in http://snomed.info/sct; The provided code http://hl7.org/fhir/ValueSet/@all is not in the value set '' (from Tx-Server) for 'http://snomed.info/sct#8921000202108'
 ERROR: Procedure/no-basis-Procedure-example: Procedure.performer[0].actor: Unable to resolve resource with reference 'Practitioner/example'
 == input/extensions/no-basis-conferencetype.structuredefinition.xml ==
 ERROR: StructureDefinition.where(url = 'http://hl7.no/fhir/structuredefinition/no-basis-conferencetype'): Conformance resource /github/workspace/no-basis/input/extensions/no-basis-conferencetype.structuredefinition.xml - the canonical URL (http://hl7.no/fhir/StructureDefinition/no-basis-conferencetype) does not match the URL (http://hl7.no/fhir/structuredefinition/no-basis-conferencetype)

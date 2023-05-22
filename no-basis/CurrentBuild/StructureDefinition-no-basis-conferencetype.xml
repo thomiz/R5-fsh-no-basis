@@ -12,7 +12,7 @@
   <version value="3.0.0-alpha"/>
   <name value="NoBasisConferenceType"/>
   <status value="draft"/>
-  <date value="2023-04-29T06:49:35+00:00"/>
+  <date value="2023-05-22T06:45:24+00:00"/>
   <description value="Norwegian valueset for conference type."/>
   <jurisdiction>
     <coding>
