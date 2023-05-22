@@ -1,8 +1,8 @@
 # Data types
 
-Overview of custumization of datatypes defined in no-basis.  
+Overview of customization of datatypes defined in no-basis.  
 
-{% include no-basis-Address.svg %}
+<div>{% include no-basis-Address.svg %}</div>
 
 <!-- <a href="https://raw.githubusercontent.com/HL7Norway/basisprofiler-r4/master/Images/no-basis-Datatypes.png">
 <img src="https://raw.githubusercontent.com/HL7Norway/basisprofiler-r4/master/Images/no-basis-Datatypes.png" alt="Drawing" style="width: 100%;max-width: 1200px"/></a> -->
