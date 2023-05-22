@@ -1,13 +1,13 @@
 name: NoBasis-gh-pages
 
 on:
-  push:
-    branches: [main]
-    paths:
-      - ig-template/**
-      - igs/MessagingCore/input/**
-      - igs/MessagingCore/ig.ini
-      - igs/MessagingCore/sushi-config.yaml
+#  push:
+#    branches: [main]
+#    paths:
+#      - ig-template/**
+#      - igs/MessagingCore/input/**
+#      - igs/MessagingCore/ig.ini
+#      - igs/MessagingCore/sushi-config.yaml
   workflow_dispatch:
 
 env:

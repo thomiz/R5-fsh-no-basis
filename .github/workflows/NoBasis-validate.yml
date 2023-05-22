@@ -1,11 +1,11 @@
 name: NoBasis-validate
 
 on:
-   push:
-      branches:
-         - master
-      paths:
-         - no-basis/**
+#   push:
+#      branches:
+#         - master
+#      paths:
+#         - no-basis/**
    workflow_dispatch:
 
 env:
