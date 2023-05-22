@@ -3,7 +3,7 @@
 
 err = 82, warn = 167, info = 18
 IG Publisher Version: 1.3.11
-Generated Mon May 22 06:58:09 UTC 2023. FHIR version 5.0.0 for hl7.fhir.no.basis#3.0.0-alpha (canonical = http://hl7.no/fhir)
+Generated Mon May 22 07:20:47 UTC 2023. FHIR version 5.0.0 for hl7.fhir.no.basis#3.0.0-alpha (canonical = http://hl7.no/fhir)
  Build Errors : 182 / 12 / 0
  /github/workspace/no-basis/fsh-generated/resources/CodeSystem-no-basis-connection-type.codesystem : 5 / 0 / 2
  /github/workspace/no-basis/fsh-generated/resources/CodeSystem-no-basis-family-relation.codesystem : 5 / 0 / 2

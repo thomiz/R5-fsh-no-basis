@@ -17,7 +17,7 @@
   fhir:name [ fhir:v "NoBasisPostponementReason"] ; # 
   fhir:title [ fhir:v "no-basis-postponementreason"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2023-05-22T06:56:15+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-05-22T07:18:56+00:00"^^xsd:dateTime] ; # 
   fhir:description [ fhir:v "The basis extension defines the reason for a postponement for example of an appointment or an encounter."] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
