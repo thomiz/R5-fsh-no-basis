@@ -4,7 +4,7 @@ class "no-basis-Appointment" as class1
 class "no-basis-AppointmentResponse" as class2
 class "no-basis-Encounter" as class3
 
-package "FHIR Entities and Individuals" #DDDDDD {
+package "FHIR Entities" #DDDDDD {
 class "Patient" as class4
 class "Practitioner" as class5
 class "Person" as class6
@@ -15,7 +15,11 @@ class "Schedule" as class7
 class "Slot" as class8
 }
 
-class3 --> class1 : reference
-class2 --> class1 : 
+class3 -down-> class1 : reference
+class2 -up-> class1 : appointment
+class8 --> class7
+class1 -right-> class8
+class1 -left-> "FHIR Entities" 
+class2 -left-> "FHIR Entities"
 
 @enduml

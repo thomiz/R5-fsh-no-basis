@@ -1,8 +1,10 @@
 ## Boundaries and Relationships 
 ### no-basis Appointment and no-basis-Encounter
 
-<a href="no-basis-Workflow-Management.png">
-<img src="no-basis-Workflow-Management.png" alt="Drawing" style="width: 100%;max-width: 800px"/></a>
+<div>{% include no-basis-Appointment.svg %}</div>
+
+<!-- <a href="no-basis-Workflow-Management.png">
+<img src="no-basis-Workflow-Management.png" alt="Drawing" style="width: 100%;max-width: 800px"/></a> -->
 
 Appointment and Encounter have dependencies as they both describe different aspects of the administrative relationship between patient and health care organizations.  
 
