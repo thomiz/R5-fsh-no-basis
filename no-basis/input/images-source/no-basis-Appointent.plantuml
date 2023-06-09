@@ -1,0 +1,21 @@
+@startuml
+
+class "no-basis-Appointment" as class1
+class "no-basis-AppointmentResponse" as class2
+class "no-basis-Encounter" as class3
+
+package "FHIR Entities and Individuals" #DDDDDD {
+class "Patient" as class4
+class "Practitioner" as class5
+class "Person" as class6
+}
+
+package "FHIR Workflow" #DDDDDD {
+class "Schedule" as class7
+class "Slot" as class8
+}
+
+class3 --> class1 : reference
+class2 --> class1 : 
+
+@enduml
