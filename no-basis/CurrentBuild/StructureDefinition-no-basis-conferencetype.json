@@ -9,7 +9,7 @@
   "version" : "3.0.0-alpha",
   "name" : "NoBasisConferenceType",
   "status" : "draft",
-  "date" : "2023-05-22T07:18:56+00:00",
+  "date" : "2023-06-13T20:52:01+00:00",
   "description" : "Norwegian valueset for conference type.",
   "jurisdiction" : [{
     "coding" : [{

@@ -648,7 +648,11 @@
         "expression" : "extension.exists() != value.exists()",
         "source" : "http://hl7.org/fhir/StructureDefinition/Extension"
       }],
-      "isModifier" : false
+      "isModifier" : false,
+      "mapping" : [{
+        "identity" : "rim",
+        "map" : "n/a,N/A"
+      }]
     },
     {
       "id" : "Address.district.value",

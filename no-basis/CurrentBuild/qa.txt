@@ -1,9 +1,9 @@
 ﻿NoBasis : Validation Results
 =========================================
 
-err = 82, warn = 167, info = 18
-IG Publisher Version: 1.3.11
-Generated Mon May 22 07:20:47 UTC 2023. FHIR version 5.0.0 for hl7.fhir.no.basis#3.0.0-alpha (canonical = http://hl7.no/fhir)
+err = 82, warn = 105, info = 17
+IG Publisher Version: 1.3.16
+Generated Tue Jun 13 20:56:28 UTC 2023. FHIR version 5.0.0 for hl7.fhir.no.basis#3.0.0-alpha (canonical = http://hl7.no/fhir)
  Build Errors : 182 / 12 / 0
  /github/workspace/no-basis/fsh-generated/resources/CodeSystem-no-basis-connection-type.codesystem : 5 / 0 / 2
  /github/workspace/no-basis/fsh-generated/resources/CodeSystem-no-basis-family-relation.codesystem : 5 / 0 / 2
@@ -55,7 +55,7 @@ Generated Mon May 22 07:20:47 UTC 2023. FHIR version 5.0.0 for hl7.fhir.no.basis
  /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-sourceofinformation : 0 / 1 / 1
  /github/workspace/no-basis/fsh-generated/resources/StructureDefinition-no-basis-urban-district : 0 / 3 / 1
  /github/workspace/no-basis/fsh-generated/resources/ValueSet-no-basis-connection-type.valueset : 3 / 0 / 1
- /github/workspace/no-basis/fsh-generated/resources/ValueSet-no-basis-documentreference-type.valueset : 5 / 64 / 2
+ /github/workspace/no-basis/fsh-generated/resources/ValueSet-no-basis-documentreference-type.valueset : 5 / 2 / 1
  /github/workspace/no-basis/fsh-generated/resources/ValueSet-no-basis-family-relation.valueset : 3 / 0 / 1
  /github/workspace/no-basis/fsh-generated/resources/ValueSet-no-basis-location-type.valueset : 3 / 0 / 1
  /github/workspace/no-basis/fsh-generated/resources/ValueSet-no-basis-marital-status.valueset : 3 / 0 / 1
@@ -73,15 +73,15 @@ Generated Mon May 22 07:20:47 UTC 2023. FHIR version 5.0.0 for hl7.fhir.no.basis
 </table>
 == n/a ==
 ERROR: ImplementationGuide.definition.parameter[23].value: Supressed messages file not found
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/no-basis-documentreference-type.valueset.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Organization/Direktoratet-for-eHelse-Organization.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Patient/EspenEksempel.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Patient/JanniceSoreng.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Patient/JanniceSorengTo.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Practitioner/Magnar-Komann-Practitioner.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/no-basis-documentreference-type.valueset.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Procedure/no-basis-Procedure-example.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource RelatedPerson/Solid-Aresdoktor-RelatedPerson.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource RelatedPerson/Sorgard-Erlend-RelatedPerson.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Procedure/no-basis-Procedure-example.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 ERROR: /github/workspace/no-basis/output/Procedure-no-basis-Procedure-example.html#/html/body/div/div/div/div/div/div/p/a at Line 251, column 757: The link 'Patient/example' for "Patient/example" cannot be resolved
 ERROR: /github/workspace/no-basis/output/Procedure-no-basis-Procedure-example.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 251, column 1141: The link 'Practitioner/example' for "Practitioner/example" cannot be resolved
 ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Address.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 367, column 1800: The link 'urn:oid:2.16.578.1.12.4.1.1.3403' for "urn:oid:2.16.578.1.12.4.1.1.3403" cannot be resolved
@@ -189,12 +189,12 @@ ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Organizati
 ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Organization.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 938, column 1903: The link 'urn:oid:2.16.578.1.12.4.1.1.8628' for "urn:oid:2.16.578.1.12.4.1.1.8628" cannot be resolved
 ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Organization.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 950, column 1931: The link 'urn:oid:2.16.578.1.12.4.1.1.8624' for "urn:oid:2.16.578.1.12.4.1.1.8624" cannot be resolved
 ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Patient-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 319, column 108: The link 'urn:iso:std:iso:3166' for "urn:iso:std:iso:3166" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Patient-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 521, column 108: The link 'urn:iso:std:iso:3166' for "urn:iso:std:iso:3166" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Patient-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 1121, column 108: The link 'urn:iso:std:iso:3166' for "urn:iso:std:iso:3166" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Patient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 377, column 1857: The link 'urn:iso:std:iso:3166' for "urn:iso:std:iso:3166" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Patient-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 522, column 108: The link 'urn:iso:std:iso:3166' for "urn:iso:std:iso:3166" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Patient-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 1122, column 108: The link 'urn:iso:std:iso:3166' for "urn:iso:std:iso:3166" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Patient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 377, column 1923: The link 'urn:iso:std:iso:3166' for "urn:iso:std:iso:3166" cannot be resolved
 ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Patient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 441, column 1931: The link 'urn:iso:std:iso:3166' for "urn:iso:std:iso:3166" cannot be resolved
 ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Patient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 548, column 1941: The link 'urn:iso:std:iso:3166' for "urn:iso:std:iso:3166" cannot be resolved
-ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Patient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 915, column 1857: The link 'urn:iso:std:iso:3166' for "urn:iso:std:iso:3166" cannot be resolved
+ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Patient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 915, column 1923: The link 'urn:iso:std:iso:3166' for "urn:iso:std:iso:3166" cannot be resolved
 ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Patient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 978, column 1931: The link 'urn:iso:std:iso:3166' for "urn:iso:std:iso:3166" cannot be resolved
 ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Patient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 1085, column 1941: The link 'urn:iso:std:iso:3166' for "urn:iso:std:iso:3166" cannot be resolved
 ERROR: /github/workspace/no-basis/output/StructureDefinition-no-basis-Practitioner-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 380, column 116: The link 'urn:oid:2.16.578.1.12.4.1.1.9060' for "urn:oid:2.16.578.1.12.4.1.1.9060" cannot be resolved
@@ -410,7 +410,7 @@ WARNING: StructureDefinition/no-basis-Organization: StructureDefinition.snapshot
 == fsh-generated/resources/StructureDefinition-no-basis-Patient.json ==
 ERROR: StructureDefinition/no-basis-Patient: StructureDefinition.snapshot.element[15].binding.valueSet: Canonical URL 'urn:iso:std:iso:3166' refers to a resource that has the wrong type. Found CodeSystem expecting one of [ValueSet]
 ERROR: StructureDefinition/no-basis-Patient: StructureDefinition.differential.element[4].binding.valueSet: Canonical URL 'urn:iso:std:iso:3166' refers to a resource that has the wrong type. Found CodeSystem expecting one of [ValueSet]
-ERROR: StructureDefinition/no-basis-Patient: StructureDefinition.differential.element[4].binding: The valueSet reference urn:iso:std:iso:3166 on element Patient.extension.extension.valueCodeableConcept points to something that is not a value set (CodeSystem)
+ERROR: StructureDefinition/no-basis-Patient: StructureDefinition.differential.element[4].binding: The valueSet reference urn:iso:std:iso:3166 on element Patient.extension.extension.value[x] points to something that is not a value set (CodeSystem)
 ERROR: StructureDefinition/no-basis-Patient: StructureDefinition.snapshot.element[15].binding: The valueSet reference urn:iso:std:iso:3166 on element Patient.extension.extension.value[x] points to something that is not a value set (CodeSystem)
 == fsh-generated/resources/StructureDefinition-no-basis-Person.json ==
 WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/no-basis-Person'): The Implementation Guide contains no examples for this profile
@@ -462,70 +462,7 @@ ERROR: /github/workspace/no-basis/fsh-generated/resources/ValueSet-no-basis-conn
 == fsh-generated/resources/ValueSet-no-basis-documentreference-type.valueset.json ==
 ERROR: ValueSet.where(url = 'http://hl7.no/fhir/ValueSet/no-basis-documentreference-type'): Conformance resource /github/workspace/no-basis/fsh-generated/resources/ValueSet-no-basis-documentreference-type.valueset.json - the canonical URL (http://hl7.no/fhir/ValueSet/no-basis-documentreference-type.valueset) does not match the URL (http://hl7.no/fhir/ValueSet/no-basis-documentreference-type)
 ERROR: ValueSet.url: Resource id/url mismatch: no-basis-documentreference-type.valueset/http://hl7.no/fhir/ValueSet/no-basis-documentreference-type
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[0]: The code A00-1 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-INFORMATION: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[0]: UNKNOWN_CODESYSTEM; The provided code http://hl7.org/fhir/ValueSet/@all is not in the value set '' (from Tx-Server)
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[1]: The code A01-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[2]: The code A02-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[3]: The code A03-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[4]: The code A04-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[5]: The code A05-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[6]: The code A06-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[7]: The code A07-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[8]: The code A08-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[9]: The code A09-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[10]: The code A10-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[11]: The code A11-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[12]: The code A12-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[13]: The code A13-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[14]: The code B00-1 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[15]: The code B01-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[16]: The code B02-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[17]: The code B03-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[18]: The code C00-1 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[19]: The code C01-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[20]: The code C02-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[21]: The code C03-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[22]: The code C04-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[23]: The code C05-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[24]: The code C06-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[25]: The code C07-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[26]: The code D00-1 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[27]: The code D01-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[28]: The code D02-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[29]: The code D03-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[30]: The code D04-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[31]: The code D05-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[32]: The code D06-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[33]: The code D07-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[34]: The code D08-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[35]: The code D09-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[36]: The code D10-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[37]: The code D11-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[38]: The code D12-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[39]: The code D13-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[40]: The code E00-1 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[41]: The code E01-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[42]: The code F00-1 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[43]: The code F01-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[44]: The code F02-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[45]: The code F03-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[46]: The code F04-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[47]: The code F05-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[48]: The code F06-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[49]: The code F07-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[50]: The code F08-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[51]: The code F09-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[52]: The code F10-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[53]: The code I00-1 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[54]: The code I01-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[55]: The code I02-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[56]: The code J00-1 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[57]: The code J01-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[58]: The code J02-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[59]: The code S00-1 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[60]: The code S01-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[61]: The code S02-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
-WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0].concept[62]: The code S03-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602
+WARNING: ValueSet/no-basis-documentreference-type.valueset: ValueSet.compose[0].include[0]: Unknown System 'urn:oid:2.16.578.1.12.4.1.1.9602' specified, so Concepts and Filters can't be checked (Details: The CodeSystem urn:oid:2.16.578.1.12.4.1.1.9602 is unknown (from Tx-Server))
 ERROR: ValueSet/no-basis-documentreference-type.valueset: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not found. HL7 Published value sets SHALL conform to the ShareableValueSet profile
 ERROR: ValueSet/no-basis-documentreference-type.valueset: ValueSet: The ShareableValueSet profile says that the description element is mandatory, but it is not found. HL7 Published value sets SHALL conform to the ShareableValueSet profile
 WARNING: ValueSet.where(id = 'no-basis-documentreference-type.valueset'): Error from server: Unable to provide support for code system urn:oid:2.16.578.1.12.4.1.1.9602
@@ -553,7 +490,7 @@ WARNING: ValueSet.where(id = 'no-basis-service-type.valueset'): Error from serve
 ERROR: /github/workspace/no-basis/fsh-generated/resources/ValueSet-no-basis-service-type.valueset: URL Mismatch http://hl7.no/fhir/ValueSet/no-basis-service-type.valueset vs http://hl7.no/fhir/ValueSet/no-basis-service-type
 == input/examples/no-basis-Procedure-example.xml ==
 ERROR: Procedure/no-basis-Procedure-example: Procedure.subject: Unable to resolve resource with reference 'Patient/example'
-ERROR: Procedure/no-basis-Procedure-example: Procedure.performer[0].function.coding[0]: Unable to find code 8921000202108 in http://snomed.info/sct (version http://snomed.info/sct/900000000000207008/version/20230131); Unknown Code 8921000202108 in http://snomed.info/sct; The provided code http://hl7.org/fhir/ValueSet/@all is not in the value set '' (from Tx-Server) for 'http://snomed.info/sct#8921000202108'
+ERROR: Procedure/no-basis-Procedure-example: Procedure.performer[0].function.coding[0]: Unable to find code 8921000202108 in http://snomed.info/sct (version http://snomed.info/sct/900000000000207008/version/20230131); Unknown Code '8921000202108' in the system 'http://snomed.info/sct'; The provided code http://snomed.info/sct#8921000202108 is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from Tx-Server) for 'http://snomed.info/sct#8921000202108'
 ERROR: Procedure/no-basis-Procedure-example: Procedure.performer[0].actor: Unable to resolve resource with reference 'Practitioner/example'
 == input/extensions/no-basis-conferencetype.structuredefinition.xml ==
 ERROR: StructureDefinition.where(url = 'http://hl7.no/fhir/structuredefinition/no-basis-conferencetype'): Conformance resource /github/workspace/no-basis/input/extensions/no-basis-conferencetype.structuredefinition.xml - the canonical URL (http://hl7.no/fhir/StructureDefinition/no-basis-conferencetype) does not match the URL (http://hl7.no/fhir/structuredefinition/no-basis-conferencetype)

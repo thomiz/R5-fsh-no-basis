@@ -9,7 +9,7 @@
   "version" : "3.0.0-alpha",
   "name" : "NoBasis",
   "status" : "active",
-  "date" : "2023-05-22T07:18:56+00:00",
+  "date" : "2023-06-13T20:52:01+00:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -324,473 +324,6 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:complex-type"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/no-basis-Address"
-      },
-      "name" : "no-basis-Address",
-      "description" : "Basisprofil for Norwegian Address information. Defined by The Norwegian Directorate of eHealth and HL7 Norway. The profile adds Norwegian specific property information, official use of address and further explanation of the use for the data-elements in a Norwegian address. The basis profile is open, but derived profiles should close down the information elements according to specification relevant to the use-case.",
-      "isExample" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/no-basis-AllergyIntolerance"
-      },
-      "name" : "no-basis-AllergyIntolerance",
-      "description" : "Basis profile for allergy intolerance, to be used in Norway. The profile is adapted to support the norwegian standard for critical information (KI standard).",
-      "isExample" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/no-basis-Appointment"
-      },
-      "name" : "no-basis-Appointment",
-      "description" : "Base profile for Norwegian Appointment information. Defined by HL7 Norway. This profile identifies a set of minimum expectations for an Appointment resource when creating, searching and retrieving compositions by defining which coding system(s) must be present when using this profile. The basis profile is open, but derived profiles should close down the information elements according to specification relevant to the use-case.",
-      "isExample" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/no-basis-Composition"
-      },
-      "name" : "no-basis-Composition",
-      "description" : "Basisprofil for Norwegian Composition. Defined by The Norwegian Directorate of eHealth and HL7 Norway. The profile adds terminology and extensions specific to Norway. The basis profile is open, derived profiles should close down the information elements according to the relevant use-case.\n\nThe profile sets the absolute minimum requirements, identifies the extensions and terminology which can be present.",
-      "isExample" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/no-basis-DocumentReference"
-      },
-      "name" : "no-basis-DocumentReference",
-      "description" : "Basisprofil for Norwegian DocumentReference. Defined by The Norwegian Directorate of eHealth and HL7 Norway. The profile adds terminology and extensions specific to Norway. The basis profile is open, derived profiles should close down the information elements according to specification relevant to the use-case.\n\nThe profile sets the absolute minimum requirements when searching, fething and storing documents within the healtcare domain. It sets the basic requirements for extensions and terminology which can be present.",
-      "isExample" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/no-basis-Endpoint"
-      },
-      "name" : "no-basis-Endpoint",
-      "description" : "Basisprofil for Norwegian Endpoint information. Defined by The Norwegian Directorate of eHealth and HL7 Norway. The profile adds Norwegian specific identification of Endpoing. The basis profile is open, but derived profiles should close down the information elements according to specification relevant to the use-case.\n\nResource profile for definition of electronic endpoints used by healthcare organizations to communicate using different protocols. The norwegian profile use-case is to represent endpoints for electronic communication. Fallback solutions using mail or fax has to be indexed in the norwegian master index for healthcare organizations and are not described using this profile.",
-      "isExample" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/no-basis-HealthcareService"
-      },
-      "name" : "no-basis-HealthcareService",
-      "description" : "Basisprofil for Norwegian Healthcare Service information. Defined by The Norwegian Directorate of eHealth and HL7 Norway. The profile adds Norwegian specific identification of Healthcare Services. The basis profile is open, but derived profiles should close down the information elements according to specification relevant to the use-case.\n\nThe typical use-case is to include information regarding what Healthcare related services, support functions or activities provided by an Organization or awailable at a Location.",
-      "isExample" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:complex-type"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/no-basis-HumanName"
-      },
-      "name" : "no-basis-HumanName",
-      "description" : "Basisprofil for Norwegian HumanName. Defined by The Norwegian Directorate of eHealth and HL7 Norway. The profile adds the concept of middlename and further explains of the use for the data-elements in a Norwegian context. The basis profile is open, but derived profiles should close down the information elements according to specification relevant to the use-case.",
-      "isExample" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/no-basis-Location"
-      },
-      "name" : "no-basis-Location",
-      "description" : "Basisprofil for Norwegian Location information. Defined by The Norwegian Directorate of eHealth and HL7 Norway. Should be used as a basis for further profiling in use-cases where specific location information is needed. The basis profile is open, but derived profiles should close down the information elements according to specification relevant to the use-case.",
-      "isExample" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/no-basis-Medication"
-      },
-      "name" : "no-basis-Medication",
-      "description" : "Basis profile for medication to be used in Norway. The profile is adapted to use FEST as source of indoseFormation.",
-      "isExample" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/no-basis-MedicationStatement"
-      },
-      "name" : "no-basis-MedicationStatement",
-      "description" : "Basis profile for medication statement, to be used in Norway. The profile is adapted to include norwegian specific features and constraints.",
-      "isExample" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/no-basis-Organization"
-      },
-      "name" : "no-basis-Organization",
-      "description" : "Basisprofil for Norwegian Organization information. Defined by The Norwegian Directorate of eHealth and HL7 Norway. The basis profile describes information structures typically used for identifying norwegian organizations. Should be used as a basis for further profiling in use-cases where other specific identity information is needed. The basis profile is open, but derived profiles should close down the information elements according to specification relevant to the use-case.",
-      "isExample" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/no-basis-Patient"
-      },
-      "name" : "no-basis-Patient",
-      "description" : "Basisprofil for Norwegian Patient information. Defined by The Norwegian Directorate of eHealth and HL7 Norway. Should be used as a basis for further profiling in use-cases where specific identity information is needed. The basis profile is open, but derived profiles should close down the information elements according to specification relevant to the use-case.",
-      "isExample" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/no-basis-Person"
-      },
-      "name" : "no-basis-Person",
-      "description" : "Basisprofil for Norwegian Person information. Defined by The Norwegian Directorate of eHealth and HL7 Norway. Should be used as a basis for further profiling in use-cases where specific identity information is needed. The basis profile is open, but derived profiles should close down the information elements according to specification relevant to the use-case.\n\nThe no-basis-Person resource main use-case is with regards to information describing persons that are living in Norway. The information is typically available from the Norwegian \"folkeregister\" and contains information describing all Norweigan citizens and individuals working and living in Norway.",
-      "isExample" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/no-basis-Practitioner"
-      },
-      "name" : "no-basis-Practitioner",
-      "description" : "Basisprofil for Norwegian Practitioner information. Defined by The Norwegian Directorate of eHealth and HL7 Norway. Should be used as a basis for further profiling in use-cases where specific identity information is needed. The basis profile is open, but derived profiles should close down the information elements according to specification relevant to the use-case.\n\n2019-03 - The no-basis-Practitioner resource main use-case is to represent the actual Practitioner, e.g. a person. The resource can include information about how to identify the practitioner in addition to the practitioner's education, qualifications and speciality. The resource can also include approvals and other centrally registered capabilities recorded for the practitioner.",
-      "isExample" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/no-basis-PractitionerRole"
-      },
-      "name" : "no-basis-PractitionerRole",
-      "description" : "Basisprofil for Norwegian PractitionerRole information. Defined by The Norwegian Directorate of eHealth and HL7 Norway. Should be used as a basis for further profiling in use-cases where specific role information is available. The basis profile is open, but derived profiles should close down the information elements according to specifications relevant to the use-case.\n\nThe main use-case of no-basis-PractitionerRole is to represent the role or function of a Practitioner wihtin an organization. The resource can include information about services performed by a Practitioner, a location where the practitioner performes the functions as well as information about the nature of the employment at an organization.",
-      "isExample" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/no-basis-RelatedPerson"
-      },
-      "name" : "no-basis-RelatedPerson",
-      "description" : "Basisprofil for Norwegian RelatedPerson information. Defined by The Norwegian Directorate of eHealth and HL7 Norway. Should be used as a basis for further profiling in use-cases where specific identity information is needed. The basis profile is open, but derived profiles should close down the information elements according to specification relevant to the use-case.\n\nTypical use-case for no-basis-RelatedPerson involves information about relations person-patient.\n- Relations registered in norwegian Master Person Information Index (aka Folkeregisteret)\n- Other relationship information registered on a patient or person neccessary for patient treatment\n- Should not be used for contact persons for the patient with a predefined role in the patient care, as information as this is registered separately in the Patient resource",
-      "isExample" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/no-basis-Substance"
-      },
-      "name" : "no-basis-Substance",
-      "description" : "Basis profile for Substances to be used in Norway. The profile is adapted to use FEST as source of information.",
-      "isExample" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:extension"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/no-basis-address-official"
-      },
-      "name" : "no-basis-address-official",
-      "description" : "Defines the concept of an officialy registered address in Norway. Usually this will be the adress registered in \"Folkeregisteret\" for persons or \"Enhetsregisteret\" for organizations.",
-      "isExample" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:extension"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/no-basis-middlename"
-      },
-      "name" : "no-basis-middlename",
-      "description" : "The basis extension defines the Norwegian middlename wich is called \"mellomnavn\" and defined by Norwegian legislation (Lov om personnavn).",
-      "isExample" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:extension"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/no-basis-municipalitycode"
-      },
-      "name" : "no-basis-municipalitycode",
-      "description" : "Coded value for municipality/county Norwegian kommune",
-      "isExample" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:extension"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/no-basis-person-citizenship"
-      },
-      "name" : "no-basis-person-citizenship",
-      "description" : "The Person's legal status as citizen of a country.",
-      "isExample" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:extension"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/no-basis-prescriptiongroup"
-      },
-      "name" : "no-basis-prescriptiongroup",
-      "description" : "Part of norwegian standard for describing a prescription.",
-      "isExample" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:extension"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/no-basis-propertyinformation"
-      },
-      "name" : "no-basis-propertyinformation",
-      "description" : "This basis extension describes information identifying norwegian real property.",
-      "isExample" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:extension"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/no-basis-relatedperson-person-reference"
-      },
-      "name" : "NoBasisRelatedpersonPersonReference",
-      "description" : "If a person reference is needed in RelatedPerson.patient element, this optional extension should be used.",
-      "isExample" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:extension"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/no-basis-sourceofinformation"
-      },
-      "name" : "no-basis-sourceofinformation",
-      "description" : "Part of norwegian KI standard.",
-      "isExample" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:extension"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/no-basis-urban-district"
-      },
-      "name" : "no-basis-urban-district",
-      "description" : "Simple extension containing information about what part of a norwegian city the patient is a resident. Administrative purpose.",
-      "isExample" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/no-basis-connection-type.valueset"
-      },
-      "name" : "no-basis-connection-type.valueset",
-      "description" : "ValueSet for connection types used in Endpoint definition. Includes all Norwegian specific types (no-basis-connection-type) and the extensible HL7 CodeSystem for connection-type",
-      "isExample" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/no-basis-documentreference-type.valueset"
-      },
-      "name" : "no-basis-documentreference-type.valueset",
-      "isExample" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/no-basis-family-relation.valueset"
-      },
-      "name" : "no-basis-family-relation.valueset",
-      "description" : "Copy of Codes from Familierelasjon defined by Skatteetaten",
-      "isExample" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/no-basis-location-type.valueset"
-      },
-      "name" : "no-basis-location-type.valueset",
-      "description" : "ValueSet for location types used in Location definition. Includes all Norwegian specific types (no-basis-location-type.codesystem) and all codes from v3.ServiceDeliveryLocationRoleType defined by HL7",
-      "isExample" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/no-basis-marital-status.valueset"
-      },
-      "name" : "no-basis-marital-status.valueset",
-      "description" : "Copy of Codes from Sivilstandstype defined by Skatteetaten",
-      "isExample" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/no-basis-parental-responsibility.valueset"
-      },
-      "name" : "no-basis-parental-responsibility.valueset",
-      "description" : "Copy of Codes from Foreldreansvar defined by Skatteetaten",
-      "isExample" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/no-basis-service-type.valueset"
-      },
-      "name" : "no-basis-service-type.valueset",
-      "description" : "ValueSet including all codes for service type (tjenestetype) allowed in the Adressergister",
-      "isExample" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
-      }],
-      "reference" : {
-        "reference" : "CodeSystem/no-basis-connection-type.codesystem"
-      },
-      "name" : "no-basis-connection-type.codesystem",
-      "description" : "Codes to describe Norwegian message based communication protocols.",
-      "isExample" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
-      }],
-      "reference" : {
-        "reference" : "CodeSystem/no-basis-family-relation.codesystem"
-      },
-      "name" : "no-basis-family-relation.codesystem",
-      "description" : "Copy of Codes from Familierelasjon defined by Skatteetaten",
-      "isExample" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
-      }],
-      "reference" : {
-        "reference" : "CodeSystem/no-basis-location-type.codesystem"
-      },
-      "name" : "no-basis-location-type.codesystem",
-      "description" : "Additional codes for location.type used by no-basis-Location",
-      "isExample" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
-      }],
-      "reference" : {
-        "reference" : "CodeSystem/no-basis-marital-status.codesystem"
-      },
-      "name" : "no-basis-marital-status.codesystem",
-      "description" : "Copy of Codes from Sivilstandstype defined by Skatteetaten",
-      "isExample" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
-      }],
-      "reference" : {
-        "reference" : "CodeSystem/no-basis-parental-responsibility.codesystem"
-      },
-      "name" : "no-basis-parental-responsibility.codesystem",
-      "description" : "Copy of Codes from Foreldreansvar defined by Skatteetaten",
-      "isExample" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Organization"
       }],
       "reference" : {
@@ -851,26 +384,62 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "RelatedPerson"
+        "valueString" : "StructureDefinition:complex-type"
       }],
       "reference" : {
-        "reference" : "RelatedPerson/Solid-Aresdoktor-RelatedPerson"
+        "reference" : "StructureDefinition/no-basis-Address"
       },
-      "name" : "Solid-Aresdoktor-RelatedPerson",
-      "profile" : ["http://hl7.no/fhir/StructureDefinition/no-basis-RelatedPerson",
-      "http://hl7.no/fhir/StructureDefinition/no-basis-RelatedPerson"]
+      "name" : "no-basis-Address",
+      "description" : "Basisprofil for Norwegian Address information. Defined by The Norwegian Directorate of eHealth and HL7 Norway. The profile adds Norwegian specific property information, official use of address and further explanation of the use for the data-elements in a Norwegian address. The basis profile is open, but derived profiles should close down the information elements according to specification relevant to the use-case.",
+      "isExample" : false
     },
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "RelatedPerson"
+        "valueString" : "StructureDefinition:extension"
       }],
       "reference" : {
-        "reference" : "RelatedPerson/Sorgard-Erlend-RelatedPerson"
+        "reference" : "StructureDefinition/no-basis-address-official"
       },
-      "name" : "Sorgard-Erlend-RelatedPerson",
-      "profile" : ["http://hl7.no/fhir/StructureDefinition/no-basis-RelatedPerson",
-      "http://hl7.no/fhir/StructureDefinition/no-basis-RelatedPerson"]
+      "name" : "no-basis-address-official",
+      "description" : "Defines the concept of an officialy registered address in Norway. Usually this will be the adress registered in \"Folkeregisteret\" for persons or \"Enhetsregisteret\" for organizations.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/no-basis-AllergyIntolerance"
+      },
+      "name" : "no-basis-AllergyIntolerance",
+      "description" : "Basis profile for allergy intolerance, to be used in Norway. The profile is adapted to support the norwegian standard for critical information (KI standard).",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/no-basis-Appointment"
+      },
+      "name" : "no-basis-Appointment",
+      "description" : "Base profile for Norwegian Appointment information. Defined by HL7 Norway. This profile identifies a set of minimum expectations for an Appointment resource when creating, searching and retrieving compositions by defining which coding system(s) must be present when using this profile. The basis profile is open, but derived profiles should close down the information elements according to specification relevant to the use-case.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/no-basis-AppointmentResponse"
+      },
+      "name" : "no-basis-AppointmentResponse",
+      "description" : "Basisprofil for Norwegian AppointmentResponse information. Defined by HL7 Norway. Should be used as a basis for further profiling in use-cases where specific appointment respons information is needed. The basis profile is open, but derived profiles should close down the information elements according to specification relevant to the use-case.",
+      "isExample" : false
     },
     {
       "extension" : [{
@@ -882,6 +451,42 @@
       },
       "name" : "no-basis-bydelsnummer",
       "description" : "Nummerering av kommuner i henhold til SSB sin offisielle liste. Inneholder fremtidige, gyldige og utgåtte kommunenummer.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/no-basis-Composition"
+      },
+      "name" : "no-basis-Composition",
+      "description" : "Basisprofil for Norwegian Composition. Defined by The Norwegian Directorate of eHealth and HL7 Norway. The profile adds terminology and extensions specific to Norway. The basis profile is open, derived profiles should close down the information elements according to the relevant use-case.\n\nThe profile sets the absolute minimum requirements, identifies the extensions and terminology which can be present.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/no-basis-connection-type.codesystem"
+      },
+      "name" : "no-basis-connection-type.codesystem",
+      "description" : "Codes to describe Norwegian message based communication protocols.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/no-basis-connection-type.valueset"
+      },
+      "name" : "no-basis-connection-type.valueset",
+      "description" : "ValueSet for connection types used in Endpoint definition. Includes all Norwegian specific types (no-basis-connection-type) and the extensible HL7 CodeSystem for connection-type",
       "isExample" : false
     },
     {
@@ -899,6 +504,29 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/no-basis-DocumentReference"
+      },
+      "name" : "no-basis-DocumentReference",
+      "description" : "Basisprofil for Norwegian DocumentReference. Defined by The Norwegian Directorate of eHealth and HL7 Norway. The profile adds terminology and extensions specific to Norway. The basis profile is open, derived profiles should close down the information elements according to specification relevant to the use-case.\n\nThe profile sets the absolute minimum requirements when searching, fething and storing documents within the healtcare domain. It sets the basic requirements for extensions and terminology which can be present.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/no-basis-documentreference-type.valueset"
+      },
+      "name" : "no-basis-documentreference-type.valueset",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "NamingSystem"
       }],
       "reference" : {
@@ -906,6 +534,42 @@
       },
       "name" : "no-basis-dufnummer",
       "description" : "Et DUF-nummer er et tolvsifret nummer som blir gitt til alle som søker om opphold i Norge.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/no-basis-Endpoint"
+      },
+      "name" : "no-basis-Endpoint",
+      "description" : "Basisprofil for Norwegian Endpoint information. Defined by The Norwegian Directorate of eHealth and HL7 Norway. The profile adds Norwegian specific identification of Endpoing. The basis profile is open, but derived profiles should close down the information elements according to specification relevant to the use-case.\n\nResource profile for definition of electronic endpoints used by healthcare organizations to communicate using different protocols. The norwegian profile use-case is to represent endpoints for electronic communication. Fallback solutions using mail or fax has to be indexed in the norwegian master index for healthcare organizations and are not described using this profile.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/no-basis-family-relation.codesystem"
+      },
+      "name" : "no-basis-family-relation.codesystem",
+      "description" : "Copy of Codes from Familierelasjon defined by Skatteetaten",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/no-basis-family-relation.valueset"
+      },
+      "name" : "no-basis-family-relation.valueset",
+      "description" : "Copy of Codes from Familierelasjon defined by Skatteetaten",
       "isExample" : false
     },
     {
@@ -935,6 +599,30 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/no-basis-group"
+      },
+      "name" : "no-basis-group",
+      "description" : "The basis extension defines a boolean concept that expresses the possibility to meet on short notice if the there are available appointment slots.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/no-basis-HealthcareService"
+      },
+      "name" : "no-basis-HealthcareService",
+      "description" : "Basisprofil for Norwegian Healthcare Service information. Defined by The Norwegian Directorate of eHealth and HL7 Norway. The profile adds Norwegian specific identification of Healthcare Services. The basis profile is open, but derived profiles should close down the information elements according to specification relevant to the use-case.\n\nThe typical use-case is to include information regarding what Healthcare related services, support functions or activities provided by an Organization or awailable at a Location.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "NamingSystem"
       }],
       "reference" : {
@@ -947,6 +635,18 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:complex-type"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/no-basis-HumanName"
+      },
+      "name" : "no-basis-HumanName",
+      "description" : "Basisprofil for Norwegian HumanName. Defined by The Norwegian Directorate of eHealth and HL7 Norway. The profile adds the concept of middlename and further explains of the use for the data-elements in a Norwegian context. The basis profile is open, but derived profiles should close down the information elements according to specification relevant to the use-case.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "NamingSystem"
       }],
       "reference" : {
@@ -954,6 +654,102 @@
       },
       "name" : "no-basis-kommunenummer",
       "description" : "Nummerering av kommuner i henhold til SSB sin offisielle liste. Inneholder fremtidige, gyldige og utgåtte kommunenummer.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/no-basis-Location"
+      },
+      "name" : "no-basis-Location",
+      "description" : "Basisprofil for Norwegian Location information. Defined by The Norwegian Directorate of eHealth and HL7 Norway. Should be used as a basis for further profiling in use-cases where specific location information is needed. The basis profile is open, but derived profiles should close down the information elements according to specification relevant to the use-case.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/no-basis-location-type.codesystem"
+      },
+      "name" : "no-basis-location-type.codesystem",
+      "description" : "Additional codes for location.type used by no-basis-Location",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/no-basis-location-type.valueset"
+      },
+      "name" : "no-basis-location-type.valueset",
+      "description" : "ValueSet for location types used in Location definition. Includes all Norwegian specific types (no-basis-location-type.codesystem) and all codes from v3.ServiceDeliveryLocationRoleType defined by HL7",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/no-basis-marital-status.codesystem"
+      },
+      "name" : "no-basis-marital-status.codesystem",
+      "description" : "Copy of Codes from Sivilstandstype defined by Skatteetaten",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/no-basis-marital-status.valueset"
+      },
+      "name" : "no-basis-marital-status.valueset",
+      "description" : "Copy of Codes from Sivilstandstype defined by Skatteetaten",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/no-basis-Medication"
+      },
+      "name" : "no-basis-Medication",
+      "description" : "Basis profile for medication to be used in Norway. The profile is adapted to use FEST as source of indoseFormation.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/no-basis-MedicationStatement"
+      },
+      "name" : "no-basis-MedicationStatement",
+      "description" : "Basis profile for medication statement, to be used in Norway. The profile is adapted to include norwegian specific features and constraints.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/no-basis-middlename"
+      },
+      "name" : "no-basis-middlename",
+      "description" : "The basis extension defines the Norwegian middlename wich is called \"mellomnavn\" and defined by Norwegian legislation (Lov om personnavn).",
       "isExample" : false
     },
     {
@@ -974,22 +770,46 @@
         "valueString" : "StructureDefinition:extension"
       }],
       "reference" : {
-        "reference" : "StructureDefinition/no-basis-conferencetype"
+        "reference" : "StructureDefinition/no-basis-municipalitycode"
       },
-      "name" : "NoBasisConferenceType",
-      "description" : "Norwegian valueset for conference type.",
+      "name" : "no-basis-municipalitycode",
+      "description" : "Coded value for municipality/county Norwegian kommune",
       "isExample" : false
     },
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:extension"
+        "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
-        "reference" : "StructureDefinition/no-basis-group"
+        "reference" : "StructureDefinition/no-basis-Organization"
       },
-      "name" : "no-basis-group",
-      "description" : "The basis extension defines a boolean concept that expresses the possibility to meet on short notice if the there are available appointment slots.",
+      "name" : "no-basis-Organization",
+      "description" : "Basisprofil for Norwegian Organization information. Defined by The Norwegian Directorate of eHealth and HL7 Norway. The basis profile describes information structures typically used for identifying norwegian organizations. Should be used as a basis for further profiling in use-cases where other specific identity information is needed. The basis profile is open, but derived profiles should close down the information elements according to specification relevant to the use-case.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/no-basis-parental-responsibility.codesystem"
+      },
+      "name" : "no-basis-parental-responsibility.codesystem",
+      "description" : "Copy of Codes from Foreldreansvar defined by Skatteetaten",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/no-basis-parental-responsibility.valueset"
+      },
+      "name" : "no-basis-parental-responsibility.valueset",
+      "description" : "Copy of Codes from Foreldreansvar defined by Skatteetaten",
       "isExample" : false
     },
     {
@@ -1007,6 +827,42 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/no-basis-Patient"
+      },
+      "name" : "no-basis-Patient",
+      "description" : "Basisprofil for Norwegian Patient information. Defined by The Norwegian Directorate of eHealth and HL7 Norway. Should be used as a basis for further profiling in use-cases where specific identity information is needed. The basis profile is open, but derived profiles should close down the information elements according to specification relevant to the use-case.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/no-basis-Person"
+      },
+      "name" : "no-basis-Person",
+      "description" : "Basisprofil for Norwegian Person information. Defined by The Norwegian Directorate of eHealth and HL7 Norway. Should be used as a basis for further profiling in use-cases where specific identity information is needed. The basis profile is open, but derived profiles should close down the information elements according to specification relevant to the use-case.\n\nThe no-basis-Person resource main use-case is with regards to information describing persons that are living in Norway. The information is typically available from the Norwegian \"folkeregister\" and contains information describing all Norweigan citizens and individuals working and living in Norway.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/no-basis-person-citizenship"
+      },
+      "name" : "no-basis-person-citizenship",
+      "description" : "The Person's legal status as citizen of a country.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:extension"
       }],
       "reference" : {
@@ -1019,13 +875,13 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:extension"
+        "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
-        "reference" : "StructureDefinition/no-basis-shortnotice"
+        "reference" : "StructureDefinition/no-basis-Practitioner"
       },
-      "name" : "no-basis-shortnotice",
-      "description" : "The basis extension defines a boolean concept that expresses the possibility to meet on short notice if the there are available appointment slots.",
+      "name" : "no-basis-Practitioner",
+      "description" : "Basisprofil for Norwegian Practitioner information. Defined by The Norwegian Directorate of eHealth and HL7 Norway. Should be used as a basis for further profiling in use-cases where specific identity information is needed. The basis profile is open, but derived profiles should close down the information elements according to specification relevant to the use-case.\n\n2019-03 - The no-basis-Practitioner resource main use-case is to represent the actual Practitioner, e.g. a person. The resource can include information about how to identify the practitioner in addition to the practitioner's education, qualifications and speciality. The resource can also include approvals and other centrally registered capabilities recorded for the practitioner.",
       "isExample" : false
     },
     {
@@ -1034,10 +890,22 @@
         "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
-        "reference" : "StructureDefinition/no-basis-AppointmentResponse"
+        "reference" : "StructureDefinition/no-basis-PractitionerRole"
       },
-      "name" : "no-basis-AppointmentResponse",
-      "description" : "Basisprofil for Norwegian AppointmentResponse information. Defined by HL7 Norway. Should be used as a basis for further profiling in use-cases where specific appointment respons information is needed. The basis profile is open, but derived profiles should close down the information elements according to specification relevant to the use-case.",
+      "name" : "no-basis-PractitionerRole",
+      "description" : "Basisprofil for Norwegian PractitionerRole information. Defined by The Norwegian Directorate of eHealth and HL7 Norway. Should be used as a basis for further profiling in use-cases where specific role information is available. The basis profile is open, but derived profiles should close down the information elements according to specifications relevant to the use-case.\n\nThe main use-case of no-basis-PractitionerRole is to represent the role or function of a Practitioner wihtin an organization. The resource can include information about services performed by a Practitioner, a location where the practitioner performes the functions as well as information about the nature of the employment at an organization.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/no-basis-prescriptiongroup"
+      },
+      "name" : "no-basis-prescriptiongroup",
+      "description" : "Part of norwegian standard for describing a prescription.",
       "isExample" : false
     },
     {
@@ -1055,6 +923,114 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Procedure"
+      }],
+      "reference" : {
+        "reference" : "Procedure/no-basis-Procedure-example"
+      },
+      "name" : "no-basis-Procedure-example",
+      "profile" : ["http://hl7.no/fhir/StructureDefinition/no-basis-Procedure",
+      "http://hl7.no/fhir/StructureDefinition/no-basis-Procedure"]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/no-basis-propertyinformation"
+      },
+      "name" : "no-basis-propertyinformation",
+      "description" : "This basis extension describes information identifying norwegian real property.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/no-basis-RelatedPerson"
+      },
+      "name" : "no-basis-RelatedPerson",
+      "description" : "Basisprofil for Norwegian RelatedPerson information. Defined by The Norwegian Directorate of eHealth and HL7 Norway. Should be used as a basis for further profiling in use-cases where specific identity information is needed. The basis profile is open, but derived profiles should close down the information elements according to specification relevant to the use-case.\n\nTypical use-case for no-basis-RelatedPerson involves information about relations person-patient.\n- Relations registered in norwegian Master Person Information Index (aka Folkeregisteret)\n- Other relationship information registered on a patient or person neccessary for patient treatment\n- Should not be used for contact persons for the patient with a predefined role in the patient care, as information as this is registered separately in the Patient resource",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/no-basis-service-type.valueset"
+      },
+      "name" : "no-basis-service-type.valueset",
+      "description" : "ValueSet including all codes for service type (tjenestetype) allowed in the Adressergister",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/no-basis-shortnotice"
+      },
+      "name" : "no-basis-shortnotice",
+      "description" : "The basis extension defines a boolean concept that expresses the possibility to meet on short notice if the there are available appointment slots.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/no-basis-sourceofinformation"
+      },
+      "name" : "no-basis-sourceofinformation",
+      "description" : "Part of norwegian KI standard.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/no-basis-Substance"
+      },
+      "name" : "no-basis-Substance",
+      "description" : "Basis profile for Substances to be used in Norway. The profile is adapted to use FEST as source of information.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/no-basis-urban-district"
+      },
+      "name" : "no-basis-urban-district",
+      "description" : "Simple extension containing information about what part of a norwegian city the patient is a resident. Administrative purpose.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/no-basis-conferencetype"
+      },
+      "name" : "NoBasisConferenceType",
+      "description" : "Norwegian valueset for conference type.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "NamingSystem"
       }],
       "reference" : {
@@ -1067,14 +1043,38 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Procedure"
+        "valueString" : "StructureDefinition:extension"
       }],
       "reference" : {
-        "reference" : "Procedure/no-basis-Procedure-example"
+        "reference" : "StructureDefinition/no-basis-relatedperson-person-reference"
       },
-      "name" : "no-basis-Procedure-example",
-      "profile" : ["http://hl7.no/fhir/StructureDefinition/no-basis-Procedure",
-      "http://hl7.no/fhir/StructureDefinition/no-basis-Procedure"]
+      "name" : "NoBasisRelatedpersonPersonReference",
+      "description" : "If a person reference is needed in RelatedPerson.patient element, this optional extension should be used.",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "RelatedPerson"
+      }],
+      "reference" : {
+        "reference" : "RelatedPerson/Solid-Aresdoktor-RelatedPerson"
+      },
+      "name" : "Solid-Aresdoktor-RelatedPerson",
+      "profile" : ["http://hl7.no/fhir/StructureDefinition/no-basis-RelatedPerson",
+      "http://hl7.no/fhir/StructureDefinition/no-basis-RelatedPerson"]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "RelatedPerson"
+      }],
+      "reference" : {
+        "reference" : "RelatedPerson/Sorgard-Erlend-RelatedPerson"
+      },
+      "name" : "Sorgard-Erlend-RelatedPerson",
+      "profile" : ["http://hl7.no/fhir/StructureDefinition/no-basis-RelatedPerson",
+      "http://hl7.no/fhir/StructureDefinition/no-basis-RelatedPerson"]
     }],
     "page" : {
       "sourceUrl" : "toc.html",

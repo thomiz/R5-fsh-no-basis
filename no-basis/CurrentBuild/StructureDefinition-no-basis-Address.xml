@@ -652,6 +652,10 @@ In Norway this is af four digit number defined by the norwegian postal service."
         <source value="http://hl7.org/fhir/StructureDefinition/Extension"/>
       </constraint>
       <isModifier value="false"/>
+      <mapping>
+        <identity value="rim"/>
+        <map value="n/a,N/A"/>
+      </mapping>
     </element>
     <element id="Address.district.value">
       <path value="Address.district.value"/>

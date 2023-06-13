@@ -1,6 +1,6 @@
 ﻿<!DOCTYPE HTML>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<!-- broken links = 181, errors = 82, warn = 167, info = 18-->
+<!-- broken links = 181, errors = 82, warn = 105, info = 17-->
 <head>
   <title>NoBasis : Validation Results</title>
   <link href="fhir.css" rel="stylesheet"/>
@@ -36,12 +36,12 @@
 </head>
 <body style="margin: 20px; background-color: #ffffff">
  <h1>Validation Results for NoBasis</h1>
- <p>Generated Mon May 22 07:20:46 UTC 2023, FHIR version 5.0.0 for hl7.fhir.no.basis#3.0.0-alpha (canonical = <a href="http://hl7.no/fhir">http://hl7.no/fhir</a> (<a href="http://hl7.no/fhir/history.html">history</a>)). See <a href="qa.html">Full QA Report</a></p>
+ <p>Generated Tue Jun 13 20:56:28 UTC 2023, FHIR version 5.0.0 for hl7.fhir.no.basis#3.0.0-alpha (canonical = <a href="http://hl7.no/fhir">http://hl7.no/fhir</a> (<a href="http://hl7.no/fhir/history.html">history</a>)). See <a href="qa.html">Full QA Report</a></p>
 <table class="grid"> <tr><td colspan=2><b>Quality Checks</b></td></tr>
- <tr><td>Publisher Version:</td><td><span>IG Publisher Version: v1.3.11</span></td></tr>
+ <tr><td>Publisher Version:</td><td><span>IG Publisher Version: v1.3.16</span></td></tr>
  <tr><td>Publication Code:</td><td>n/a<span style="color: maroon; font-weight: bold"> </span>. PackageId = hl7.fhir.no.basis, Canonical = http://hl7.no/fhir</td></tr>
  <tr><td>Realm Check for n/a:</td><td><span style="color: maroon; font-weight: bold"></span><ul><li>n/a</li></ul></td></tr>
- <tr><td>Publication Request:</td><td><ul><li><span title="Invalid HTTP response 404 from http://www.hl7.no/fhir/package-list.json?nocache=1684740045082 (Not Found) (content in /tmp/http-log/fhir-http-3.log)">This IG has never been published</span> <img src="information.png" height="16px" width="16px"/></li>
+ <tr><td>Publication Request:</td><td><ul><li><span title="Invalid HTTP response 404 from http://www.hl7.no/fhir/package-list.json?nocache=1686689782108 (Not Found) (content in /tmp/http-log/fhir-http-3.log)">This IG has never been published</span> <img src="information.png" height="16px" width="16px"/></li>
 <li>No publication request found <img src="information.png" height="16px" width="16px"/></li>
 </ul>
 </td></tr>
@@ -56,9 +56,9 @@
  <tr><td>HTA Analysis:</td><td><a href="qa-hta.html">All OK</a></td></tr>
  <tr><td>R5 Dependencies:</td><td><span style="color: grey">(none)</span></td></tr>
  <tr><td>Modifier Extensions:</td><td><span style="color: grey">(none)</span></td></tr>
- <tr><td>Previous Version Comparison:</td><td> Unable to compare with previous version: Unable to find version history at http://hl7.no/fhir (Problem #1 with package-list.json at http://hl7.no/fhir: Invalid HTTP response 404 from http://www.hl7.no/fhir/package-list.json?nocache=1684739933682 (Not Found) (content in /tmp/http-log/fhir-http-2.log))</td></tr>
+ <tr><td>Previous Version Comparison:</td><td> Unable to compare with previous version: Unable to find version history at http://hl7.no/fhir (Problem #1 with package-list.json at http://hl7.no/fhir: Invalid HTTP response 404 from http://www.hl7.no/fhir/package-list.json?nocache=1686689518850 (Not Found) (content in /tmp/http-log/fhir-http-2.log))</td></tr>
  <tr><td>IPA Comparison:</td><td> n/a</td></tr>
- <tr><td>Summary:</td><td> errors = 82, warn = 167, info = 18, broken links = 181</td></tr>
+ <tr><td>Summary:</td><td> errors = 82, warn = 105, info = 17, broken links = 181</td></tr>
 </table>
  <table class="grid">
    <tr>
@@ -173,7 +173,7 @@
      <td><a href="#_github_workspace_no-basis_fsh-generated_resources_ValueSet-no-basis-connection-type.valueset"><b>/github/workspace/no-basis/fsh-generated/resources/ValueSet-no-basis-connection-type.valueset</b></a></td><td><b>3</b></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><a href="#_github_workspace_no-basis_fsh-generated_resources_ValueSet-no-basis-documentreference-type.valueset"><b>/github/workspace/no-basis/fsh-generated/resources/ValueSet-no-basis-documentreference-type.valueset</b></a></td><td><b>5</b></td><td><b>64</b></td><td><b>1</b></td>
+     <td><a href="#_github_workspace_no-basis_fsh-generated_resources_ValueSet-no-basis-documentreference-type.valueset"><b>/github/workspace/no-basis/fsh-generated/resources/ValueSet-no-basis-documentreference-type.valueset</b></a></td><td><b>5</b></td><td><b>2</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
      <td><a href="#_github_workspace_no-basis_fsh-generated_resources_ValueSet-no-basis-family-relation.valueset"><b>/github/workspace/no-basis/fsh-generated/resources/ValueSet-no-basis-family-relation.valueset</b></a></td><td><b>3</b></td><td><b>0</b></td><td><b>0</b></td>
@@ -224,9 +224,6 @@
      <td><b>ImplementationGuide.definition.parameter[23].value</b></td><td><b>error</b></td><td title=""><b>Supressed messages file not found</b></td>
    </tr>
    <tr style="background-color: #ffebcc">
-     <td><b></b></td><td><b>warning</b></td><td title=""><b>Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/no-basis-documentreference-type.valueset.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
      <td><b></b></td><td><b>warning</b></td><td title=""><b>Unable to find ImplementationGuide.definition.resource.description for the resource Organization/Direktoratet-for-eHelse-Organization.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.</b></td>
    </tr>
    <tr style="background-color: #ffebcc">
@@ -242,13 +239,16 @@
      <td><b></b></td><td><b>warning</b></td><td title=""><b>Unable to find ImplementationGuide.definition.resource.description for the resource Practitioner/Magnar-Komann-Practitioner.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.</b></td>
    </tr>
    <tr style="background-color: #ffebcc">
+     <td><b></b></td><td><b>warning</b></td><td title=""><b>Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/no-basis-documentreference-type.valueset.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b></b></td><td><b>warning</b></td><td title=""><b>Unable to find ImplementationGuide.definition.resource.description for the resource Procedure/no-basis-Procedure-example.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
      <td><b></b></td><td><b>warning</b></td><td title=""><b>Unable to find ImplementationGuide.definition.resource.description for the resource RelatedPerson/Solid-Aresdoktor-RelatedPerson.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.</b></td>
    </tr>
    <tr style="background-color: #ffebcc">
      <td><b></b></td><td><b>warning</b></td><td title=""><b>Unable to find ImplementationGuide.definition.resource.description for the resource RelatedPerson/Sorgard-Erlend-RelatedPerson.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b></b></td><td><b>warning</b></td><td title=""><b>Unable to find ImplementationGuide.definition.resource.description for the resource Procedure/no-basis-Procedure-example.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
      <td><b><a href="Procedure-no-basis-Procedure-example.html#l398">output/Procedure-no-basis-Procedure-example.html#/html/body/div/div/div/div/div/div/p/a at Line 251, column 757</a></b></td><td><b>error</b></td><td><b>The link 'Patient/example' for &quot;Patient/example&quot; cannot be resolved</b></td>
@@ -572,28 +572,28 @@
      <td><b><a href="StructureDefinition-no-basis-Patient-definitions.html#l595">output/StructureDefinition-no-basis-Patient-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 319, column 108</a></b></td><td><b>error</b></td><td><b>The link 'urn:iso:std:iso:3166' for &quot;urn:iso:std:iso:3166&quot; cannot be resolved</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b><a href="StructureDefinition-no-basis-Patient-definitions.html#l2218">output/StructureDefinition-no-basis-Patient-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 521, column 108</a></b></td><td><b>error</b></td><td><b>The link 'urn:iso:std:iso:3166' for &quot;urn:iso:std:iso:3166&quot; cannot be resolved</b></td>
+     <td><b><a href="StructureDefinition-no-basis-Patient-definitions.html#l2227">output/StructureDefinition-no-basis-Patient-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 522, column 108</a></b></td><td><b>error</b></td><td><b>The link 'urn:iso:std:iso:3166' for &quot;urn:iso:std:iso:3166&quot; cannot be resolved</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b><a href="StructureDefinition-no-basis-Patient-definitions.html#l7419">output/StructureDefinition-no-basis-Patient-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 1121, column 108</a></b></td><td><b>error</b></td><td><b>The link 'urn:iso:std:iso:3166' for &quot;urn:iso:std:iso:3166&quot; cannot be resolved</b></td>
+     <td><b><a href="StructureDefinition-no-basis-Patient-definitions.html#l7428">output/StructureDefinition-no-basis-Patient-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 1122, column 108</a></b></td><td><b>error</b></td><td><b>The link 'urn:iso:std:iso:3166' for &quot;urn:iso:std:iso:3166&quot; cannot be resolved</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b><a href="StructureDefinition-no-basis-Patient.html#l665">output/StructureDefinition-no-basis-Patient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 377, column 1857</a></b></td><td><b>error</b></td><td><b>The link 'urn:iso:std:iso:3166' for &quot;urn:iso:std:iso:3166&quot; cannot be resolved</b></td>
+     <td><b><a href="StructureDefinition-no-basis-Patient.html#l670">output/StructureDefinition-no-basis-Patient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 377, column 1923</a></b></td><td><b>error</b></td><td><b>The link 'urn:iso:std:iso:3166' for &quot;urn:iso:std:iso:3166&quot; cannot be resolved</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b><a href="StructureDefinition-no-basis-Patient.html#l1509">output/StructureDefinition-no-basis-Patient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 441, column 1931</a></b></td><td><b>error</b></td><td><b>The link 'urn:iso:std:iso:3166' for &quot;urn:iso:std:iso:3166&quot; cannot be resolved</b></td>
+     <td><b><a href="StructureDefinition-no-basis-Patient.html#l1514">output/StructureDefinition-no-basis-Patient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 441, column 1931</a></b></td><td><b>error</b></td><td><b>The link 'urn:iso:std:iso:3166' for &quot;urn:iso:std:iso:3166&quot; cannot be resolved</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b><a href="StructureDefinition-no-basis-Patient.html#l2999">output/StructureDefinition-no-basis-Patient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 548, column 1941</a></b></td><td><b>error</b></td><td><b>The link 'urn:iso:std:iso:3166' for &quot;urn:iso:std:iso:3166&quot; cannot be resolved</b></td>
+     <td><b><a href="StructureDefinition-no-basis-Patient.html#l3004">output/StructureDefinition-no-basis-Patient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 548, column 1941</a></b></td><td><b>error</b></td><td><b>The link 'urn:iso:std:iso:3166' for &quot;urn:iso:std:iso:3166&quot; cannot be resolved</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b><a href="StructureDefinition-no-basis-Patient.html#l5887">output/StructureDefinition-no-basis-Patient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 915, column 1857</a></b></td><td><b>error</b></td><td><b>The link 'urn:iso:std:iso:3166' for &quot;urn:iso:std:iso:3166&quot; cannot be resolved</b></td>
+     <td><b><a href="StructureDefinition-no-basis-Patient.html#l5897">output/StructureDefinition-no-basis-Patient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 915, column 1923</a></b></td><td><b>error</b></td><td><b>The link 'urn:iso:std:iso:3166' for &quot;urn:iso:std:iso:3166&quot; cannot be resolved</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b><a href="StructureDefinition-no-basis-Patient.html#l6728">output/StructureDefinition-no-basis-Patient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 978, column 1931</a></b></td><td><b>error</b></td><td><b>The link 'urn:iso:std:iso:3166' for &quot;urn:iso:std:iso:3166&quot; cannot be resolved</b></td>
+     <td><b><a href="StructureDefinition-no-basis-Patient.html#l6738">output/StructureDefinition-no-basis-Patient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 978, column 1931</a></b></td><td><b>error</b></td><td><b>The link 'urn:iso:std:iso:3166' for &quot;urn:iso:std:iso:3166&quot; cannot be resolved</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b><a href="StructureDefinition-no-basis-Patient.html#l8218">output/StructureDefinition-no-basis-Patient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 1085, column 1941</a></b></td><td><b>error</b></td><td><b>The link 'urn:iso:std:iso:3166' for &quot;urn:iso:std:iso:3166&quot; cannot be resolved</b></td>
+     <td><b><a href="StructureDefinition-no-basis-Patient.html#l8228">output/StructureDefinition-no-basis-Patient.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 1085, column 1941</a></b></td><td><b>error</b></td><td><b>The link 'urn:iso:std:iso:3166' for &quot;urn:iso:std:iso:3166&quot; cannot be resolved</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
      <td><b><a href="StructureDefinition-no-basis-Practitioner-definitions.html#l1016">output/StructureDefinition-no-basis-Practitioner-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 380, column 116</a></b></td><td><b>error</b></td><td><b>The link 'urn:oid:2.16.578.1.12.4.1.1.9060' for &quot;urn:oid:2.16.578.1.12.4.1.1.9060&quot; cannot be resolved</b></td>
@@ -1354,13 +1354,13 @@
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>StructureDefinition.snapshot.element[15].binding.valueSet (l1/c76643)</b></td><td><b>error</b></td><td title="TYPE_SPECIFIC_CHECKS_DT_CANONICAL_TYPE"><b>Canonical URL 'urn:iso:std:iso:3166' refers to a resource that has the wrong type. Found CodeSystem expecting one of [ValueSet]</b></td>
+     <td><b>StructureDefinition.snapshot.element[15].binding.valueSet (l1/c76715)</b></td><td><b>error</b></td><td title="TYPE_SPECIFIC_CHECKS_DT_CANONICAL_TYPE"><b>Canonical URL 'urn:iso:std:iso:3166' refers to a resource that has the wrong type. Found CodeSystem expecting one of [ValueSet]</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>StructureDefinition.differential.element[4].binding.valueSet (l1/c194796)</b></td><td><b>error</b></td><td title="TYPE_SPECIFIC_CHECKS_DT_CANONICAL_TYPE"><b>Canonical URL 'urn:iso:std:iso:3166' refers to a resource that has the wrong type. Found CodeSystem expecting one of [ValueSet]</b></td>
+     <td><b>StructureDefinition.differential.element[4].binding.valueSet (l1/c194826)</b></td><td><b>error</b></td><td title="TYPE_SPECIFIC_CHECKS_DT_CANONICAL_TYPE"><b>Canonical URL 'urn:iso:std:iso:3166' refers to a resource that has the wrong type. Found CodeSystem expecting one of [ValueSet]</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>StructureDefinition.differential.element[4].binding</b></td><td><b>error</b></td><td title="SD_ED_BIND_NOT_VS"><b>The valueSet reference urn:iso:std:iso:3166 on element Patient.extension.extension.valueCodeableConcept points to something that is not a value set (CodeSystem)</b></td>
+     <td><b>StructureDefinition.differential.element[4].binding</b></td><td><b>error</b></td><td title="SD_ED_BIND_NOT_VS"><b>The valueSet reference urn:iso:std:iso:3166 on element Patient.extension.extension.value[x] points to something that is not a value set (CodeSystem)</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
      <td><b>StructureDefinition.snapshot.element[15].binding</b></td><td><b>error</b></td><td title="SD_ED_BIND_NOT_VS"><b>The valueSet reference urn:iso:std:iso:3166 on element Patient.extension.extension.value[x] points to something that is not a value set (CodeSystem)</b></td>
@@ -1598,196 +1598,7 @@
      <td><b>ValueSet.url</b></td><td><b>error</b></td><td title="RESOURCE_ID_MISMATCH"><b>Resource id/url mismatch: no-basis-documentreference-type.valueset/http://hl7.no/fhir/ValueSet/no-basis-documentreference-type</b></td>
    </tr>
    <tr style="background-color: #ffebcc">
-     <td><b>ValueSet.compose[0].include[0].concept[0]</b></td><td><b>warning</b></td><td title=""><b>The code A00-1 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
-   </tr>
-   <tr style="background-color: #ffffe6">
-     <td><b>ValueSet.compose[0].include[0].concept[0]</b></td><td><b>information</b></td><td title=""><b>UNKNOWN_CODESYSTEM; The provided code http://hl7.org/fhir/ValueSet/@all is not in the value set '' (from Tx-Server)</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>ValueSet.compose[0].include[0].concept[1]</b></td><td><b>warning</b></td><td title=""><b>The code A01-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>ValueSet.compose[0].include[0].concept[2]</b></td><td><b>warning</b></td><td title=""><b>The code A02-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>ValueSet.compose[0].include[0].concept[3]</b></td><td><b>warning</b></td><td title=""><b>The code A03-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>ValueSet.compose[0].include[0].concept[4]</b></td><td><b>warning</b></td><td title=""><b>The code A04-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>ValueSet.compose[0].include[0].concept[5]</b></td><td><b>warning</b></td><td title=""><b>The code A05-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>ValueSet.compose[0].include[0].concept[6]</b></td><td><b>warning</b></td><td title=""><b>The code A06-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>ValueSet.compose[0].include[0].concept[7]</b></td><td><b>warning</b></td><td title=""><b>The code A07-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>ValueSet.compose[0].include[0].concept[8]</b></td><td><b>warning</b></td><td title=""><b>The code A08-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>ValueSet.compose[0].include[0].concept[9]</b></td><td><b>warning</b></td><td title=""><b>The code A09-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>ValueSet.compose[0].include[0].concept[10]</b></td><td><b>warning</b></td><td title=""><b>The code A10-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>ValueSet.compose[0].include[0].concept[11]</b></td><td><b>warning</b></td><td title=""><b>The code A11-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>ValueSet.compose[0].include[0].concept[12]</b></td><td><b>warning</b></td><td title=""><b>The code A12-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>ValueSet.compose[0].include[0].concept[13]</b></td><td><b>warning</b></td><td title=""><b>The code A13-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>ValueSet.compose[0].include[0].concept[14]</b></td><td><b>warning</b></td><td title=""><b>The code B00-1 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>ValueSet.compose[0].include[0].concept[15]</b></td><td><b>warning</b></td><td title=""><b>The code B01-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>ValueSet.compose[0].include[0].concept[16]</b></td><td><b>warning</b></td><td title=""><b>The code B02-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>ValueSet.compose[0].include[0].concept[17]</b></td><td><b>warning</b></td><td title=""><b>The code B03-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>ValueSet.compose[0].include[0].concept[18]</b></td><td><b>warning</b></td><td title=""><b>The code C00-1 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>ValueSet.compose[0].include[0].concept[19]</b></td><td><b>warning</b></td><td title=""><b>The code C01-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>ValueSet.compose[0].include[0].concept[20]</b></td><td><b>warning</b></td><td title=""><b>The code C02-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>ValueSet.compose[0].include[0].concept[21]</b></td><td><b>warning</b></td><td title=""><b>The code C03-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>ValueSet.compose[0].include[0].concept[22]</b></td><td><b>warning</b></td><td title=""><b>The code C04-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>ValueSet.compose[0].include[0].concept[23]</b></td><td><b>warning</b></td><td title=""><b>The code C05-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>ValueSet.compose[0].include[0].concept[24]</b></td><td><b>warning</b></td><td title=""><b>The code C06-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>ValueSet.compose[0].include[0].concept[25]</b></td><td><b>warning</b></td><td title=""><b>The code C07-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>ValueSet.compose[0].include[0].concept[26]</b></td><td><b>warning</b></td><td title=""><b>The code D00-1 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>ValueSet.compose[0].include[0].concept[27]</b></td><td><b>warning</b></td><td title=""><b>The code D01-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>ValueSet.compose[0].include[0].concept[28]</b></td><td><b>warning</b></td><td title=""><b>The code D02-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>ValueSet.compose[0].include[0].concept[29]</b></td><td><b>warning</b></td><td title=""><b>The code D03-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>ValueSet.compose[0].include[0].concept[30]</b></td><td><b>warning</b></td><td title=""><b>The code D04-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>ValueSet.compose[0].include[0].concept[31]</b></td><td><b>warning</b></td><td title=""><b>The code D05-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>ValueSet.compose[0].include[0].concept[32]</b></td><td><b>warning</b></td><td title=""><b>The code D06-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>ValueSet.compose[0].include[0].concept[33]</b></td><td><b>warning</b></td><td title=""><b>The code D07-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>ValueSet.compose[0].include[0].concept[34]</b></td><td><b>warning</b></td><td title=""><b>The code D08-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>ValueSet.compose[0].include[0].concept[35]</b></td><td><b>warning</b></td><td title=""><b>The code D09-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>ValueSet.compose[0].include[0].concept[36]</b></td><td><b>warning</b></td><td title=""><b>The code D10-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>ValueSet.compose[0].include[0].concept[37]</b></td><td><b>warning</b></td><td title=""><b>The code D11-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>ValueSet.compose[0].include[0].concept[38]</b></td><td><b>warning</b></td><td title=""><b>The code D12-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>ValueSet.compose[0].include[0].concept[39]</b></td><td><b>warning</b></td><td title=""><b>The code D13-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>ValueSet.compose[0].include[0].concept[40]</b></td><td><b>warning</b></td><td title=""><b>The code E00-1 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>ValueSet.compose[0].include[0].concept[41]</b></td><td><b>warning</b></td><td title=""><b>The code E01-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>ValueSet.compose[0].include[0].concept[42]</b></td><td><b>warning</b></td><td title=""><b>The code F00-1 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>ValueSet.compose[0].include[0].concept[43]</b></td><td><b>warning</b></td><td title=""><b>The code F01-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>ValueSet.compose[0].include[0].concept[44]</b></td><td><b>warning</b></td><td title=""><b>The code F02-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>ValueSet.compose[0].include[0].concept[45]</b></td><td><b>warning</b></td><td title=""><b>The code F03-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>ValueSet.compose[0].include[0].concept[46]</b></td><td><b>warning</b></td><td title=""><b>The code F04-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>ValueSet.compose[0].include[0].concept[47]</b></td><td><b>warning</b></td><td title=""><b>The code F05-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>ValueSet.compose[0].include[0].concept[48]</b></td><td><b>warning</b></td><td title=""><b>The code F06-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>ValueSet.compose[0].include[0].concept[49]</b></td><td><b>warning</b></td><td title=""><b>The code F07-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>ValueSet.compose[0].include[0].concept[50]</b></td><td><b>warning</b></td><td title=""><b>The code F08-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>ValueSet.compose[0].include[0].concept[51]</b></td><td><b>warning</b></td><td title=""><b>The code F09-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>ValueSet.compose[0].include[0].concept[52]</b></td><td><b>warning</b></td><td title=""><b>The code F10-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>ValueSet.compose[0].include[0].concept[53]</b></td><td><b>warning</b></td><td title=""><b>The code I00-1 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>ValueSet.compose[0].include[0].concept[54]</b></td><td><b>warning</b></td><td title=""><b>The code I01-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>ValueSet.compose[0].include[0].concept[55]</b></td><td><b>warning</b></td><td title=""><b>The code I02-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>ValueSet.compose[0].include[0].concept[56]</b></td><td><b>warning</b></td><td title=""><b>The code J00-1 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>ValueSet.compose[0].include[0].concept[57]</b></td><td><b>warning</b></td><td title=""><b>The code J01-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>ValueSet.compose[0].include[0].concept[58]</b></td><td><b>warning</b></td><td title=""><b>The code J02-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>ValueSet.compose[0].include[0].concept[59]</b></td><td><b>warning</b></td><td title=""><b>The code S00-1 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>ValueSet.compose[0].include[0].concept[60]</b></td><td><b>warning</b></td><td title=""><b>The code S01-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>ValueSet.compose[0].include[0].concept[61]</b></td><td><b>warning</b></td><td title=""><b>The code S02-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>ValueSet.compose[0].include[0].concept[62]</b></td><td><b>warning</b></td><td title=""><b>The code S03-2 is not valid in the system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
+     <td><b>ValueSet.compose[0].include[0]</b></td><td><b>warning</b></td><td title=""><b>Unknown System 'urn:oid:2.16.578.1.12.4.1.1.9602' specified, so Concepts and Filters can't be checked (Details: The CodeSystem urn:oid:2.16.578.1.12.4.1.1.9602 is unknown (from Tx-Server))</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
      <td><b>ValueSet (l1/c7094)</b></td><td><b>error</b></td><td title="VALUESET_SHAREABLE_MISSING_HL7"><b>The ShareableValueSet profile says that the experimental element is mandatory, but it is not found. HL7 Published value sets SHALL conform to the ShareableValueSet profile</b></td>
@@ -1796,7 +1607,7 @@
      <td><b>ValueSet (l1/c7094)</b></td><td><b>error</b></td><td title="VALUESET_SHAREABLE_MISSING_HL7"><b>The ShareableValueSet profile says that the description element is mandatory, but it is not found. HL7 Published value sets SHALL conform to the ShareableValueSet profile</b></td>
    </tr>
    <tr style="background-color: #ffebcc">
-     <td><b>ValueSet.where(id = 'no-basis-documentreference-type.valueset')</b></td><td><b>warning</b></td><td title=""><b>Error from server: Unable to provide support for code system urn:oid:2.16.578.1.12.4.1.1.9602</b></td>
+     <td><b>ValueSet.where(id = 'no-basis-documentreference-type.valueset')</b></td><td><b>warning</b></td><td><b>Error from server: Unable to provide support for code system urn:oid:2.16.578.1.12.4.1.1.9602</b> (<a href="qa-tx.html#l17">see Tx log</a>)</td>
    </tr>
    <tr style="background-color: #ffcccc">
      <td><b>fsh-generated/resources/ValueSet-no-basis-documentreference-type.valueset</b></td><td><b>error</b></td><td title=""><b>URL Mismatch http://hl7.no/fhir/ValueSet/no-basis-documentreference-type.valueset vs http://hl7.no/fhir/ValueSet/no-basis-documentreference-type</b></td>
@@ -1894,7 +1705,7 @@
      <td><b>ValueSet.url</b></td><td><b>error</b></td><td title="RESOURCE_ID_MISMATCH"><b>Resource id/url mismatch: no-basis-service-type.valueset/http://hl7.no/fhir/ValueSet/no-basis-service-type</b></td>
    </tr>
    <tr style="background-color: #ffebcc">
-     <td><b>ValueSet.where(id = 'no-basis-service-type.valueset')</b></td><td><b>warning</b></td><td title=""><b>Error from server: Unable to provide support for code system urn:oid:2.16.578.1.12.4.1.1.8660</b></td>
+     <td><b>ValueSet.where(id = 'no-basis-service-type.valueset')</b></td><td><b>warning</b></td><td><b>Error from server: Unable to provide support for code system urn:oid:2.16.578.1.12.4.1.1.8660</b> (<a href="qa-tx.html#l19">see Tx log</a>)</td>
    </tr>
    <tr style="background-color: #ffcccc">
      <td><b>fsh-generated/resources/ValueSet-no-basis-service-type.valueset</b></td><td><b>error</b></td><td title=""><b>URL Mismatch http://hl7.no/fhir/ValueSet/no-basis-service-type.valueset vs http://hl7.no/fhir/ValueSet/no-basis-service-type</b></td>
@@ -1913,7 +1724,7 @@
      <td><b>Procedure.subject (l15/c14)</b></td><td><b>error</b></td><td title="Reference_REF_CantResolve"><b>Unable to resolve resource with reference 'Patient/example'</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>Procedure.performer[0].function.coding[0] (l20/c21)</b></td><td><b>error</b></td><td title="Terminology_PassThrough_TX_Message"><b>Unable to find code 8921000202108 in http://snomed.info/sct (version http://snomed.info/sct/900000000000207008/version/20230131); Unknown Code 8921000202108 in http://snomed.info/sct; The provided code http://hl7.org/fhir/ValueSet/@all is not in the value set '' (from Tx-Server) for 'http://snomed.info/sct#8921000202108'</b></td>
+     <td><b>Procedure.performer[0].function.coding[0] (l20/c21)</b></td><td><b>error</b></td><td><b>Unable to find code 8921000202108 in http://snomed.info/sct (version http://snomed.info/sct/900000000000207008/version/20230131); Unknown Code '8921000202108' in the system 'http://snomed.info/sct'; The provided code http://snomed.info/sct#8921000202108 is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from Tx-Server) for 'http://snomed.info/sct#8921000202108'</b> (<a href="qa-tx.html#l11">see Tx log</a>)</td>
    </tr>
    <tr style="background-color: #ffcccc">
      <td><b>Procedure.performer[0].actor (l26/c16)</b></td><td><b>error</b></td><td title="Reference_REF_CantResolve"><b>Unable to resolve resource with reference 'Practitioner/example'</b></td>
@@ -2226,7 +2037,7 @@
 <h2>SD_ED_BIND_NOT_VS</h2>
  <table class="grid">
    <tr style="background-color: #ffeeee">
-     <td><a href="StructureDefinition-no-basis-Patient.html">fsh-generated/resources/StructureDefinition-no-basis-Patient.json</a></td><td><b>The valueSet reference urn:iso:std:iso:3166 on element Patient.extension.extension.valueCodeableConcept points to something that is not a value set (CodeSystem)</b></td>
+     <td><a href="StructureDefinition-no-basis-Patient.html">fsh-generated/resources/StructureDefinition-no-basis-Patient.json</a></td><td><b>The valueSet reference urn:iso:std:iso:3166 on element Patient.extension.extension.value[x] points to something that is not a value set (CodeSystem)</b></td>
    </tr>
    <tr style="background-color: #ffeeee">
      <td><a href="StructureDefinition-no-basis-Patient.html">fsh-generated/resources/StructureDefinition-no-basis-Patient.json</a></td><td><b>The valueSet reference urn:iso:std:iso:3166 on element Patient.extension.extension.value[x] points to something that is not a value set (CodeSystem)</b></td>
@@ -2248,7 +2059,7 @@
 <h2>Terminology_PassThrough_TX_Message</h2>
  <table class="grid">
    <tr style="background-color: #ffeeee">
-     <td><a href="Procedure-no-basis-Procedure-example.html">input/examples/no-basis-Procedure-example.xml</a></td><td><b>Unable to find code 8921000202108 in http://snomed.info/sct (version http://snomed.info/sct/900000000000207008/version/20230131); Unknown Code 8921000202108 in http://snomed.info/sct; The provided code http://hl7.org/fhir/ValueSet/@all is not in the value set '' (from Tx-Server) for 'http://snomed.info/sct#8921000202108'</b></td>
+     <td><a href="Procedure-no-basis-Procedure-example.html">input/examples/no-basis-Procedure-example.xml</a></td><td><b>Unable to find code 8921000202108 in http://snomed.info/sct (version http://snomed.info/sct/900000000000207008/version/20230131); Unknown Code '8921000202108' in the system 'http://snomed.info/sct'; The provided code http://snomed.info/sct#8921000202108 is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from Tx-Server) for 'http://snomed.info/sct#8921000202108'</b></td>
    </tr>
 </table>
 <hr/>

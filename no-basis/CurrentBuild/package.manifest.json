@@ -1,6 +1,6 @@
 {
   "version" : "3.0.0-alpha",
   "fhirVersion" : ["5.0.0"],
-  "date" : "20230522071803",
+  "date" : "20230613205102",
   "name" : "hl7.fhir.no.basis"
 }
