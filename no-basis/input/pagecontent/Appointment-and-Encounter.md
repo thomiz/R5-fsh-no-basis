@@ -1,4 +1,5 @@
 ## Boundaries and Relationships 
+
 ### no-basis Appointment and no-basis-Encounter
 
 <div>{% include no-basis-Appointment.svg %}</div>
