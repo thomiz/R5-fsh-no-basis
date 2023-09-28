@@ -1,0 +1,21 @@
+@startuml
+
+skinparam linetype ortho
+
+'package "Bundle" {
+class "CarePlan" as careplan <<pasientplan>> {
+'addresses:CodeableReference(Condition)[0..*]
+}
+
+class "Condition" as cond <<problem>>
+class "Goal" as goal <<mål>>
+class "ServiceRequest" as service <<Intervensjon>>
+cond --o "addresses" goal
+goal --[hidden] service
+
+
+careplan "addresses" o-- cond
+service "reasonReference" o-- cond 
+'careplan "plannedActivityReference" o-[dotted]- service 
+'}
+@enduml
