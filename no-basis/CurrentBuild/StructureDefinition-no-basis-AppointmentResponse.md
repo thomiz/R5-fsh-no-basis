@@ -1,0 +1,120 @@
+# no-basis-AppointmentResponse - v3.0.0-alpha
+
+* [**Table of Contents**](toc.md)
+* [**Artifacts Summary**](artifacts.md)
+* **no-basis-AppointmentResponse**
+
+## Resource Profile: no-basis-AppointmentResponse 
+
+| | |
+| :--- | :--- |
+| *Official URL*:http://hl7.no/fhir/StructureDefinition/no-basis-AppointmentResponse | *Version*:3.0.0-alpha |
+| Draft as of 2026-10-04 | *Computable Name*:NoBasisAppointmentResponse |
+
+ 
+Basisprofil for Norwegian AppointmentResponse information. Defined by HL7 Norway. Should be used as a basis for further profiling in use-cases where specific appointment respons information is needed. The basis profile is open, but derived profiles should close down the information elements according to specification relevant to the use-case. 
+
+**Usages:**
+
+* This Profile is not used by any profiles in this Specification
+
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/hl7.fhir.no.basis|current/StructureDefinition/StructureDefinition-no-basis-AppointmentResponse.json)
+
+### Formal Views of Profile Content
+
+ [Description of Profiles, Differentials, Snapshots and how the different presentations work](http://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#structure-definitions). 
+
+ 
+
+Other representations of profile: [CSV](StructureDefinition-no-basis-AppointmentResponse.csv), [Excel](StructureDefinition-no-basis-AppointmentResponse.xlsx), [Schematron](StructureDefinition-no-basis-AppointmentResponse.sch) 
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "StructureDefinition",
+  "id" : "no-basis-AppointmentResponse",
+  "url" : "http://hl7.no/fhir/StructureDefinition/no-basis-AppointmentResponse",
+  "version" : "3.0.0-alpha",
+  "name" : "NoBasisAppointmentResponse",
+  "title" : "no-basis-AppointmentResponse",
+  "status" : "draft",
+  "date" : "2026-10-04T16:26:34+00:00",
+  "description" : "Basisprofil for Norwegian AppointmentResponse information. Defined by HL7 Norway. Should be used as a basis for further profiling in use-cases where specific appointment respons information is needed. The basis profile is open, but derived profiles should close down the information elements according to specification relevant to the use-case.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "NO",
+      "display" : "Norway"
+    }]
+  }],
+  "fhirVersion" : "5.0.0",
+  "mapping" : [{
+    "identity" : "workflow",
+    "uri" : "http://hl7.org/fhir/workflow",
+    "name" : "Workflow Pattern"
+  },
+  {
+    "identity" : "w5",
+    "uri" : "http://hl7.org/fhir/fivews",
+    "name" : "FiveWs Pattern Mapping"
+  },
+  {
+    "identity" : "rim",
+    "uri" : "http://hl7.org/v3",
+    "name" : "RIM Mapping"
+  },
+  {
+    "identity" : "ical",
+    "uri" : "http://ietf.org/rfc/2445",
+    "name" : "iCalendar"
+  },
+  {
+    "identity" : "v2",
+    "uri" : "http://hl7.org/v2",
+    "name" : "HL7 V2 Mapping"
+  }],
+  "kind" : "resource",
+  "abstract" : false,
+  "type" : "AppointmentResponse",
+  "baseDefinition" : "http://hl7.org/fhir/StructureDefinition/AppointmentResponse",
+  "derivation" : "constraint",
+  "differential" : {
+    "element" : [{
+      "id" : "AppointmentResponse",
+      "path" : "AppointmentResponse"
+    },
+    {
+      "id" : "AppointmentResponse.extension",
+      "path" : "AppointmentResponse.extension",
+      "slicing" : {
+        "discriminator" : [{
+          "type" : "value",
+          "path" : "url"
+        }],
+        "rules" : "open"
+      },
+      "min" : 0
+    },
+    {
+      "id" : "AppointmentResponse.extension:shortNotice",
+      "path" : "AppointmentResponse.extension",
+      "sliceName" : "shortNotice",
+      "definition" : "Pasient can come on short notice.",
+      "min" : 0,
+      "type" : [{
+        "code" : "Extension",
+        "profile" : ["http://hl7.no/fhir/structuredefinition/no-basis-appointmentresponse/no-basis-shortnotice"]
+      }]
+    },
+    {
+      "id" : "AppointmentResponse.extension:shortNotice.value[x]",
+      "path" : "AppointmentResponse.extension.value[x]",
+      "definition" : "Pasient can come on short notice."
+    }]
+  }
+}
+
+```

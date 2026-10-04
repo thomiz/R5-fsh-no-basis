@@ -5,7 +5,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>HL7.FHIR.NO.BASIS\Magnar-Komann-Practitioner - XML Representation - FHIR v5.0.0</title>
+    <title>Magnar-Komann-Practitioner - XML Representation -  v3.0.0-alpha</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -20,6 +20,7 @@
     <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
     <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
   	<link href="assets/css/prism.css" rel="stylesheet" />
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
     <!-- Placeholder for child template CSS declarations -->
     <link href="assets/css/hl7.css" rel="stylesheet"/>
     <link href="assets/css/fhir.css" rel="stylesheet"/>
@@ -33,20 +34,22 @@
     <![endif]-->
 
     <!-- Favicons -->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png"/>
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png"/>
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png"/>
-    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/icon-fhir-57.png"/>
     <link rel="shortcut icon" href="assets/ico/favicon.png"/>
   </head>
   <body onload="document.body.style.opacity='1'">
 
 	  <script src="assets/js/prism.js"></script>
-
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
     <style type="text/css">h2{--heading-prefix:"5.61"}
     h3,h4,h5,h6{--heading-prefix:"5.61"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
+
         <!-- Placeholder for child template header declarations -->
 
             
@@ -181,7 +184,7 @@
           <div class="inner-wrapper">
 
 <div style="counter-reset: section 7" class="col-12">
-<!--ReleaseHeader--><p id="publish-box">Publication Build: This will be filled in by the publication tooling</p><!--EndReleaseHeader-->
+<!--ReleaseHeader--><p id="publish-box">NoBasis - Downloaded Version 3.0.0-alpha See the <a href="http://hl7.no/fhir/history.html">Directory of published versions</a></p></p><!--EndReleaseHeader-->
 
 
 
@@ -228,18 +231,6 @@
 
 
 <h2 id="root">: Magnar-Komann-Practitioner - XML Representation</h2>
-  <table class="colsi">
-    <tr>
-
-      <td colspan="2">
-        
-          
-          
-        
-      </td>
-
-    </tr>
-  </table>
 
 
 <p><a href="Practitioner-Magnar-Komann-Practitioner.xml" no-download="true">Raw xml</a> | <a href="Practitioner-Magnar-Komann-Practitioner.xml" download>Download</a></p>
@@ -249,91 +240,90 @@
 
 
 
-  <pre class="xml" style="white-space: pre; overflow: hidden"><code class="language-xml">
-
-&lt;<a href="http://hl7.org/fhir/R5/practitioner.html#Practitioner">Practitioner</a> xmlns=&quot;http://hl7.org/fhir&quot;&gt;
-  &lt;<a href="http://hl7.org/fhir/R5/practitioner.html#Practitioner.id">id</a> <a href="http://hl7.org/fhir/R5/datatypes.html#id">value</a>=&quot;Magnar-Komann-Practitioner&quot;/&gt;
-  &lt;<a href="http://hl7.org/fhir/R5/practitioner.html#Practitioner.meta">meta</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R5/resource.html#Meta#Meta.profile">profile</a>
+  <pre class="xml" data-fhir="generated" style="white-space: pre; text-wrap: nowrap; width: auto;"><code class="language-xml" style="white-space: pre; text-wrap: nowrap;">
+&lt;<a href="http://hl7.org/fhir/R5/practitioner.html#XPractitioner">Practitioner</a> xmlns=&quot;http://hl7.org/fhir&quot;&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/resource.html#XPractitioner.id">id</a> <a href="http://hl7.org/fhir/R5/datatypes.html#id">value</a>=&quot;Magnar-Komann-Practitioner&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/resource.html#XPractitioner.meta">meta</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/resource.html#Meta#XMeta.profile">profile</a>
              <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">value</a>=&quot;http://hl7.no/fhir/StructureDefinition/no-basis-Practitioner&quot;/&gt;
-  &lt;/meta&gt;
-  &lt;<a href="http://hl7.org/fhir/R5/practitioner.html#Practitioner.text">text</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
-    &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;p&gt;&lt;b&gt;Generated Narrative: Practitioner&lt;/b&gt;&lt;a name=&quot;Magnar-Komann-Practitioner&quot;&gt; &lt;/a&gt;&lt;/p&gt;&lt;div style=&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%&quot;&gt;&lt;p style=&quot;margin-bottom: 0px&quot;&gt;Resource Practitioner &amp;quot;Magnar-Komann-Practitioner&amp;quot; &lt;/p&gt;&lt;p style=&quot;margin-bottom: 0px&quot;&gt;Profile: &lt;a href=&quot;StructureDefinition-no-basis-Practitioner.html&quot;&gt;no-basis-Practitioner&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: id: 9144889&lt;/p&gt;&lt;p&gt;&lt;b&gt;name&lt;/b&gt;: Magnar Koman &lt;/p&gt;&lt;p&gt;&lt;b&gt;telecom&lt;/b&gt;: ph: 75589889(WORK), fax: 75589899, ph: 98128921(MOBILE), &lt;a href=&quot;mailto:mako@bottomline.no&quot;&gt;mako@bottomline.no&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;address&lt;/b&gt;: Dreyfushammarn 23 BODØ 8012 (WORK)&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;qualification&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;code&lt;/b&gt;: Lege &lt;span style=&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki&quot;&gt; (unknown#LE)&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;qualification&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;code&lt;/b&gt;: Allmennmedisin &lt;span style=&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki&quot;&gt; (unknown#1)&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;qualification&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;code&lt;/b&gt;: Autorisasjon &lt;span style=&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki&quot;&gt; (unknown#1)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;period&lt;/b&gt;: 2018-10-10 --&amp;gt; (ongoing)&lt;/p&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;qualification&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;code&lt;/b&gt;: Ortopedisk kirurgi &lt;span style=&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki&quot;&gt; (unknown#152)&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;/div&gt;<a name="end-xhtml"></a>
-  &lt;/text&gt;
-  &lt;<a href="http://hl7.org/fhir/R5/practitioner.html#Practitioner.identifier">identifier</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;urn:oid:2.16.578.1.12.4.1.4.4&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">value</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;9144889&quot;/&gt;
-  &lt;/identifier&gt;
-  &lt;<a href="http://hl7.org/fhir/R5/practitioner.html#Practitioner.name">name</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#HumanName#HumanName.family">family</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Koman&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#HumanName#HumanName.given">given</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Magnar&quot;/&gt;
-  &lt;/name&gt;
-  &lt;<a href="http://hl7.org/fhir/R5/practitioner.html#Practitioner.telecom">telecom</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#ContactPoint#ContactPoint.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;phone&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#ContactPoint#ContactPoint.value">value</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;75589889&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#ContactPoint#ContactPoint.use">use</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;work&quot;/&gt;
-  &lt;/telecom&gt;
-  &lt;<a href="http://hl7.org/fhir/R5/practitioner.html#Practitioner.telecom">telecom</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#ContactPoint#ContactPoint.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;fax&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#ContactPoint#ContactPoint.value">value</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;75589899&quot;/&gt;
-  &lt;/telecom&gt;
-  &lt;<a href="http://hl7.org/fhir/R5/practitioner.html#Practitioner.telecom">telecom</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#ContactPoint#ContactPoint.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;phone&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#ContactPoint#ContactPoint.value">value</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;98128921&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#ContactPoint#ContactPoint.use">use</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;mobile&quot;/&gt;
-  &lt;/telecom&gt;
-  &lt;<a href="http://hl7.org/fhir/R5/practitioner.html#Practitioner.telecom">telecom</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#ContactPoint#ContactPoint.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;email&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#ContactPoint#ContactPoint.value">value</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;mako@bottomline.no&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#ContactPoint#ContactPoint.use">use</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;work&quot;/&gt;
-  &lt;/telecom&gt;
-  &lt;<a href="http://hl7.org/fhir/R5/practitioner.html#Practitioner.address">address</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Address#Address.use">use</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;work&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Address#Address.line">line</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Dreyfushammarn 23&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Address#Address.city">city</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;BODØ&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Address#Address.postalCode">postalCode</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;8012&quot;/&gt;
-  &lt;/address&gt;
-  &lt;<a href="http://hl7.org/fhir/R5/practitioner.html#Practitioner.qualification">qualification</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R5/practitioner.html#Practitioner.qualification.code">code</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;urn:oid:2.16.578.1.12.4.1.1.9060&quot;/&gt;
-        &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;LE&quot;/&gt;
-        &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Lege&quot;/&gt;
-      &lt;/coding&gt;
-    &lt;/code&gt;
-  &lt;/qualification&gt;
-  &lt;<a href="http://hl7.org/fhir/R5/practitioner.html#Practitioner.qualification">qualification</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R5/practitioner.html#Practitioner.qualification.code">code</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;urn:oid:2.16.578.1.12.4.1.1.7426&quot;/&gt;
-        &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;1&quot;/&gt;
-        &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Allmennmedisin&quot;/&gt;
-      &lt;/coding&gt;
-    &lt;/code&gt;
-  &lt;/qualification&gt;
-  &lt;<a href="http://hl7.org/fhir/R5/practitioner.html#Practitioner.qualification">qualification</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R5/practitioner.html#Practitioner.qualification.code">code</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;urn:oid:2.16.578.1.12.4.1.1.7704&quot;/&gt;
-        &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;1&quot;/&gt;
-        &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Autorisasjon&quot;/&gt;
-      &lt;/coding&gt;
-    &lt;/code&gt;
-    &lt;<a href="http://hl7.org/fhir/R5/practitioner.html#Practitioner.qualification.period">period</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Period#Period.start">start</a> <a href="http://hl7.org/fhir/R5/datatypes.html#dateTime">value</a>=&quot;2018-10-10&quot;/&gt;
-    &lt;/period&gt;
-  &lt;/qualification&gt;
-  &lt;<a href="http://hl7.org/fhir/R5/practitioner.html#Practitioner.qualification">qualification</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R5/practitioner.html#Practitioner.qualification.code">code</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;urn:oid:2.16.578.1.12.4.1.1.7426&quot;/&gt;
-        &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;152&quot;/&gt;
-        &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Ortopedisk kirurgi&quot;/&gt;
-      &lt;/coding&gt;
-    &lt;/code&gt;
-  &lt;/qualification&gt;
-&lt;/Practitioner&gt;</code></pre>
+  &lt;/<a href="http://hl7.org/fhir/R5/resource.html#XPractitioner.meta">meta</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/domainresource.html#XPractitioner.text">text</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
+    &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;p class=&quot;res-header-id&quot;&gt;&lt;b&gt;Generated Narrative: Practitioner Magnar-Komann-Practitioner&lt;/b&gt;&lt;/p&gt;&lt;a name=&quot;Magnar-Komann-Practitioner&quot;&gt; &lt;/a&gt;&lt;a name=&quot;hcMagnar-Komann-Practitioner&quot;&gt; &lt;/a&gt;&lt;div style=&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%&quot;&gt;&lt;p style=&quot;margin-bottom: 0px&quot;/&gt;&lt;p style=&quot;margin-bottom: 0px&quot;&gt;Profile: &lt;a href=&quot;StructureDefinition-no-basis-Practitioner.html&quot;&gt;no-basis-Practitioner&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;a href=&quot;NamingSystem-no-basis-helsepersonellnummer.html&quot; title=&quot;In Norway all registered health care personnel is registered in the Helsepersonellregister (HPR) and is assigned a HPR-number that is used to identify the health care practitioner. Health care personnel not registered in HPR can use FNR for identification.&quot;&gt;HelsepersonellregisteretNummer&lt;/a&gt;/9144889&lt;/p&gt;&lt;p&gt;&lt;b&gt;name&lt;/b&gt;: Magnar Koman &lt;/p&gt;&lt;p&gt;&lt;b&gt;telecom&lt;/b&gt;: ph: 75589889(Work), fax: 75589899, ph: 98128921(Mobile), &lt;a href=&quot;mailto:mako@bottomline.no&quot;&gt;mako@bottomline.no&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;address&lt;/b&gt;: Dreyfushammarn 23 BODØ 8012 (work)&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;qualification&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;code&lt;/b&gt;: &lt;span title=&quot;Codes:{urn:oid:2.16.578.1.12.4.1.1.9060 LE}&quot;&gt;Lege&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;qualification&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;code&lt;/b&gt;: &lt;span title=&quot;Codes:{urn:oid:2.16.578.1.12.4.1.1.7426 1}&quot;&gt;Allmennmedisin&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;qualification&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;code&lt;/b&gt;: &lt;span title=&quot;Codes:{urn:oid:2.16.578.1.12.4.1.1.7704 1}&quot;&gt;Autorisasjon&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;period&lt;/b&gt;: 2018-10-10 --&amp;gt; (ongoing)&lt;/p&gt;&lt;/blockquote&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;qualification&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;code&lt;/b&gt;: &lt;span title=&quot;Codes:{urn:oid:2.16.578.1.12.4.1.1.7426 152}&quot;&gt;Ortopedisk kirurgi&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;/div&gt;<a name="end-xhtml"></a>
+  &lt;/<a href="http://hl7.org/fhir/R5/domainresource.html#XPractitioner.text">text</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/practitioner.html#XPractitioner.identifier">identifier</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;urn:oid:2.16.578.1.12.4.1.4.4&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.value">value</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;9144889&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R5/practitioner.html#XPractitioner.identifier">identifier</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/practitioner.html#XPractitioner.name">name</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#HumanName#XHumanName.family">family</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Koman&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#HumanName#XHumanName.given">given</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Magnar&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R5/practitioner.html#XPractitioner.name">name</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/practitioner.html#XPractitioner.telecom">telecom</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#ContactPoint#XContactPoint.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;phone&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#ContactPoint#XContactPoint.value">value</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;75589889&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#ContactPoint#XContactPoint.use">use</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;work&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R5/practitioner.html#XPractitioner.telecom">telecom</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/practitioner.html#XPractitioner.telecom">telecom</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#ContactPoint#XContactPoint.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;fax&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#ContactPoint#XContactPoint.value">value</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;75589899&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R5/practitioner.html#XPractitioner.telecom">telecom</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/practitioner.html#XPractitioner.telecom">telecom</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#ContactPoint#XContactPoint.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;phone&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#ContactPoint#XContactPoint.value">value</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;98128921&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#ContactPoint#XContactPoint.use">use</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;mobile&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R5/practitioner.html#XPractitioner.telecom">telecom</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/practitioner.html#XPractitioner.telecom">telecom</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#ContactPoint#XContactPoint.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;email&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#ContactPoint#XContactPoint.value">value</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;mako@bottomline.no&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#ContactPoint#XContactPoint.use">use</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;work&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R5/practitioner.html#XPractitioner.telecom">telecom</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/practitioner.html#XPractitioner.address">address</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Address#XAddress.use">use</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;work&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Address#XAddress.line">line</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Dreyfushammarn 23&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Address#XAddress.city">city</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;BODØ&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Address#XAddress.postalCode">postalCode</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;8012&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R5/practitioner.html#XPractitioner.address">address</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/practitioner.html#XPractitioner.qualification">qualification</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/practitioner.html#XPractitioner.qualification.code">code</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;urn:oid:2.16.578.1.12.4.1.1.9060&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;LE&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Lege&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R5/practitioner.html#XPractitioner.qualification.code">code</a>&gt;
+  &lt;/<a href="http://hl7.org/fhir/R5/practitioner.html#XPractitioner.qualification">qualification</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/practitioner.html#XPractitioner.qualification">qualification</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/practitioner.html#XPractitioner.qualification.code">code</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;urn:oid:2.16.578.1.12.4.1.1.7426&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;1&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Allmennmedisin&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R5/practitioner.html#XPractitioner.qualification.code">code</a>&gt;
+  &lt;/<a href="http://hl7.org/fhir/R5/practitioner.html#XPractitioner.qualification">qualification</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/practitioner.html#XPractitioner.qualification">qualification</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/practitioner.html#XPractitioner.qualification.code">code</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;urn:oid:2.16.578.1.12.4.1.1.7704&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;1&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Autorisasjon&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R5/practitioner.html#XPractitioner.qualification.code">code</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/practitioner.html#XPractitioner.qualification.period">period</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Period#XPeriod.start">start</a> <a href="http://hl7.org/fhir/R5/datatypes.html#dateTime">value</a>=&quot;2018-10-10&quot;/&gt;
+    &lt;/<a href="http://hl7.org/fhir/R5/practitioner.html#XPractitioner.qualification.period">period</a>&gt;
+  &lt;/<a href="http://hl7.org/fhir/R5/practitioner.html#XPractitioner.qualification">qualification</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/practitioner.html#XPractitioner.qualification">qualification</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/practitioner.html#XPractitioner.qualification.code">code</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;urn:oid:2.16.578.1.12.4.1.1.7426&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;152&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Ortopedisk kirurgi&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+    &lt;/<a href="http://hl7.org/fhir/R5/practitioner.html#XPractitioner.qualification.code">code</a>&gt;
+  &lt;/<a href="http://hl7.org/fhir/R5/practitioner.html#XPractitioner.qualification">qualification</a>&gt;
+&lt;/<a href="http://hl7.org/fhir/R5/practitioner.html#XPractitioner">Practitioner</a>&gt;</code></pre>
 
 
   <!-- insert notes if present -->
@@ -350,20 +340,14 @@
   <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
   <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
 
-  <script type="text/javascript">
-    $(document).ready(function(){
-      if(window.location.hash != "") {
-          $('a[href="' + window.location.hash + '"]').click()
-      }
-    });
-  </script>
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
   <a name="bottom"> </a>
   <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
     <div class="container">  <!-- container -->
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href=""></a>.  Package hl7.fhir.no.basis#3.0.0-alpha based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Tue, Jun 13, 2023 20:52+0000">2023-06-13</span>
+          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href=""></a>.  Package hl7.fhir.no.basis#3.0.0-alpha based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Sun, Oct 4, 2026 16:26+0000">2026-10-04</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
@@ -381,7 +365,7 @@
     <div class="container">  <!-- container -->
     </div>  <!-- /container -->
   </div>  <!-- /segment-post-footer -->
-  
+
   <!-- JS and analytics only. -->
   <!-- Bootstrap core JavaScript
   ================================================== -->
@@ -391,16 +375,7 @@
   <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
   <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
   <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
-  <script>anchors.options.visible = 'hover'
-anchors.add()</script>
-  
-<!-- feedback form - Google forms -->
-<!-- v0.1, 2021-01-09 -->
-
-
-
-<!-- / feedback form  -->
-
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
   <!-- Analytics Below
   ================================================== -->
   </body>

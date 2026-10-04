@@ -5,7 +5,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>HL7.FHIR.NO.BASIS\Solid-Aresdoktor-RelatedPerson - JSON Representation - FHIR v5.0.0</title>
+    <title>Solid-Aresdoktor-RelatedPerson - JSON Representation -  v3.0.0-alpha</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -20,6 +20,7 @@
     <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
     <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
   	<link href="assets/css/prism.css" rel="stylesheet" />
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
     <!-- Placeholder for child template CSS declarations -->
     <link href="assets/css/hl7.css" rel="stylesheet"/>
     <link href="assets/css/fhir.css" rel="stylesheet"/>
@@ -33,20 +34,22 @@
     <![endif]-->
 
     <!-- Favicons -->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png"/>
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png"/>
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png"/>
-    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/icon-fhir-57.png"/>
     <link rel="shortcut icon" href="assets/ico/favicon.png"/>
   </head>
   <body onload="document.body.style.opacity='1'">
 
 	  <script src="assets/js/prism.js"></script>
-
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
     <style type="text/css">h2{--heading-prefix:"5.63"}
     h3,h4,h5,h6{--heading-prefix:"5.63"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
+
         <!-- Placeholder for child template header declarations -->
 
             
@@ -181,7 +184,7 @@
           <div class="inner-wrapper">
 
 <div style="counter-reset: section 8" class="col-12">
-<!--ReleaseHeader--><p id="publish-box">Publication Build: This will be filled in by the publication tooling</p><!--EndReleaseHeader-->
+<!--ReleaseHeader--><p id="publish-box">NoBasis - Downloaded Version 3.0.0-alpha See the <a href="http://hl7.no/fhir/history.html">Directory of published versions</a></p></p><!--EndReleaseHeader-->
 
 
 
@@ -228,18 +231,6 @@
 
 
 <h2 id="root">: Solid-Aresdoktor-RelatedPerson - JSON Representation</h2>
-  <table class="colsi">
-    <tr>
-
-      <td colspan="2">
-        
-          
-          
-        
-      </td>
-
-    </tr>
-  </table>
 
 
 <p><a href="RelatedPerson-Solid-Aresdoktor-RelatedPerson.json" no-download="true">Raw json</a> | <a href="RelatedPerson-Solid-Aresdoktor-RelatedPerson.json" download>Download</a></p>
@@ -249,100 +240,99 @@
 
 
 
-  <pre class="json" style="white-space: pre; overflow: hidden"><code class="language-json">
-{
-  "<a href="http://hl7.org/fhir/R5/relatedperson.html#RelatedPerson">resourceType</a>" : "RelatedPerson",
-  "<a href="http://hl7.org/fhir/R5/relatedperson.html#RelatedPerson.id">id</a>" : "Solid-Aresdoktor-RelatedPerson",
-  "<a href="http://hl7.org/fhir/R5/relatedperson.html#RelatedPerson.meta">meta</a>" : {
-    "<a href="http://hl7.org/fhir/R5/resource.html#Meta#Meta.profile">profile</a>" : [
-      "http://hl7.no/fhir/StructureDefinition/no-basis-RelatedPerson"
+  <pre class="json" data-fhir="generated" style="white-space: pre; text-wrap: nowrap; width: auto;"><code class="language-json" style="white-space: pre; text-wrap: nowrap;">{
+  "<a href="http://hl7.org/fhir/R5/relatedperson.html#XRelatedPerson">resourceType</a>" : "RelatedPerson",
+  "<a href="http://hl7.org/fhir/R5/resource.html#XRelatedPerson.id">id</a>" : "Solid-Aresdoktor-RelatedPerson",
+  "<a href="http://hl7.org/fhir/R5/resource.html#XRelatedPerson.meta">meta</a>" : {
+    "<a href="http://hl7.org/fhir/R5/resource.html#Meta#XMeta.profile">profile</a>" : [
+      <a href="StructureDefinition-no-basis-RelatedPerson.html" style="color: Maroon">&#x1F517;</a> "http://hl7.no/fhir/StructureDefinition/no-basis-RelatedPerson"
     ]
   },
-  "<a href="http://hl7.org/fhir/R5/relatedperson.html#RelatedPerson.text">text</a>" : {
-    "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "generated",
-    "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p&gt;&lt;b&gt;Generated Narrative: RelatedPerson&lt;/b&gt;&lt;a name=\&quot;Solid-Aresdoktor-RelatedPerson\&quot;&gt; &lt;/a&gt;&lt;/p&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Resource RelatedPerson &amp;quot;Solid-Aresdoktor-RelatedPerson&amp;quot; &lt;/p&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profile: &lt;a href=\&quot;StructureDefinition-no-basis-RelatedPerson.html\&quot;&gt;no-basis-RelatedPerson&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: id:\u00a015080050515&lt;/p&gt;&lt;p&gt;&lt;b&gt;patient&lt;/b&gt;: &lt;span/&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;relationship&lt;/b&gt;: Far &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (&lt;a href=\&quot;CodeSystem-no-basis-family-relation.codesystem.html\&quot;&gt;no-basis-family-relation.codesystem&lt;/a&gt;#far)&lt;/span&gt;, Far &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (&lt;a href=\&quot;CodeSystem-no-basis-parental-responsibility.codesystem.html\&quot;&gt;no-basis-parental-responsibility.codesystem&lt;/a&gt;#far)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;name&lt;/b&gt;: SOLID ÆRESDOKTOR &lt;/p&gt;&lt;p&gt;&lt;b&gt;address&lt;/b&gt;: Nyhaugveien 3 BERGEN 5067 NO (HOME)&lt;/p&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
+  "<a href="http://hl7.org/fhir/R5/domainresource.html#XRelatedPerson.text">text</a>" : {
+    "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a>" : "generated",
+    "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Generated Narrative: RelatedPerson Solid-Aresdoktor-RelatedPerson&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;Solid-Aresdoktor-RelatedPerson\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcSolid-Aresdoktor-RelatedPerson\&quot;&gt; &lt;/a&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;/&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profile: &lt;a href=\&quot;StructureDefinition-no-basis-RelatedPerson.html\&quot;&gt;no-basis-RelatedPerson&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;a href=\&quot;NamingSystem-no-basis-foedselsnummer.html\&quot; title=\&quot;Fødselsnummer is the official identification of a Norwegian citizen and is registered in the repository called folkeregisteret. Fødselsnummer is a 11-digit number containing 2 control digits.\&quot;&gt;Foedselsnummer&lt;/a&gt;/15080050515&lt;/p&gt;&lt;p&gt;&lt;b&gt;patient&lt;/b&gt;: Identifier: &lt;a href=\&quot;NamingSystem-no-basis-foedselsnummer.html\&quot; title=\&quot;Fødselsnummer is the official identification of a Norwegian citizen and is registered in the repository called folkeregisteret. Fødselsnummer is a 11-digit number containing 2 control digits.\&quot;&gt;Foedselsnummer&lt;/a&gt;/04021950128&lt;/p&gt;&lt;p&gt;&lt;b&gt;relationship&lt;/b&gt;: &lt;span title=\&quot;Codes:{http://hl7.no/fhir/CodeSystem/no-basis-family-relation far}\&quot;&gt;Far&lt;/span&gt;, &lt;span title=\&quot;Codes:{http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility far}\&quot;&gt;Far&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;name&lt;/b&gt;: SOLID ÆRESDOKTOR &lt;/p&gt;&lt;p&gt;&lt;b&gt;address&lt;/b&gt;: Nyhaugveien 3 BERGEN 5067 NO (home)&lt;/p&gt;&lt;/div&gt;"
   },
-  "<a href="http://hl7.org/fhir/R5/relatedperson.html#RelatedPerson.identifier">identifier</a>" : [
+  "<a href="http://hl7.org/fhir/R5/relatedperson.html#XRelatedPerson.identifier">identifier</a>" : [
     {
-      "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">system</a>" : "urn:oid:2.16.578.1.12.4.1.4.1",
-      "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">value</a>" : "15080050515"
+      "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.system">system</a>" : "urn:oid:2.16.578.1.12.4.1.4.1",
+      "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.value">value</a>" : "15080050515"
     }
   ],
-  "<a href="http://hl7.org/fhir/R5/relatedperson.html#RelatedPerson.patient">patient</a>" : {
-    "<a href="http://hl7.org/fhir/R5/references.html#Reference#Reference.identifier">identifier</a>" : {
-      "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">system</a>" : "urn:oid:2.16.578.1.12.4.1.4.1",
-      "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">value</a>" : "04021950128"
+  "<a href="http://hl7.org/fhir/R5/relatedperson.html#XRelatedPerson.patient">patient</a>" : {
+    "<a href="http://hl7.org/fhir/R5/references.html#Reference#XReference.identifier">identifier</a>" : {
+      "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.system">system</a>" : "urn:oid:2.16.578.1.12.4.1.4.1",
+      "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.value">value</a>" : "04021950128"
     }
   },
-  "<a href="http://hl7.org/fhir/R5/relatedperson.html#RelatedPerson.relationship">relationship</a>" : [
+  "<a href="http://hl7.org/fhir/R5/relatedperson.html#XRelatedPerson.relationship">relationship</a>" : [
     {
-      "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+      "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>" : [
         {
-          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "http://hl7.no/fhir/CodeSystem/no-basis-family-relation",
-          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "far"
+          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>" : "http://hl7.no/fhir/CodeSystem/no-basis-family-relation",
+          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a>" : "far"
         }
       ]
     },
     {
-      "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+      "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>" : [
         {
-          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility",
-          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "far"
+          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>" : "http://hl7.no/fhir/CodeSystem/no-basis-parental-responsibility",
+          "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a>" : "far"
         }
       ]
     }
   ],
-  "<a href="http://hl7.org/fhir/R5/relatedperson.html#RelatedPerson.name">name</a>" : [
+  "<a href="http://hl7.org/fhir/R5/relatedperson.html#XRelatedPerson.name">name</a>" : [
     {
-      "<a href="http://hl7.org/fhir/R5/datatypes.html#HumanName#HumanName.extension">extension</a>" : [
+      "<a href="http://hl7.org/fhir/R5/types.html#Element#XHumanName.extension">extension</a>" : [
         {
-          "<a href="http://hl7.org/fhir/R5/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.no/fhir/StructureDefinition/no-basis-middlename",
-          "<a href="http://hl7.org/fhir/R5/extensibility.html#Extension#Extension.value[x]">valueString</a>" : "SKIKKELIG"
+          "<a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.url">url</a>" : "http://hl7.no/fhir/StructureDefinition/no-basis-middlename",
+          "<a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.value_x_">valueString</a>" : "SKIKKELIG"
         }
       ],
-      "<a href="http://hl7.org/fhir/R5/datatypes.html#HumanName#HumanName.family">family</a>" : "ÆRESDOKTOR",
-      "<a href="http://hl7.org/fhir/R5/datatypes.html#HumanName#HumanName.given">given</a>" : [
+      "<a href="http://hl7.org/fhir/R5/datatypes.html#HumanName#XHumanName.family">family</a>" : "ÆRESDOKTOR",
+      "<a href="http://hl7.org/fhir/R5/datatypes.html#HumanName#XHumanName.given">given</a>" : [
         "SOLID"
       ]
     }
   ],
-  "<a href="http://hl7.org/fhir/R5/relatedperson.html#RelatedPerson.address">address</a>" : [
+  "<a href="http://hl7.org/fhir/R5/relatedperson.html#XRelatedPerson.address">address</a>" : [
     {
-      "<a href="http://hl7.org/fhir/R5/datatypes.html#Address#Address.extension">extension</a>" : [
+      "<a href="http://hl7.org/fhir/R5/types.html#Element#XAddress.extension">extension</a>" : [
         {
-          "<a href="http://hl7.org/fhir/R5/extensibility.html#Extension#Extension.extension">extension</a>" : [
+          "<a href="http://hl7.org/fhir/R5/types.html#Element#XExtension.extension">extension</a>" : [
             {
-              "<a href="http://hl7.org/fhir/R5/extensibility.html#Extension#Extension.url">url</a>" : "cadastralUnitNumber",
-              "<a href="http://hl7.org/fhir/R5/extensibility.html#Extension#Extension.value[x]">valueInteger</a>" : 15
+              "<a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.url">url</a>" : "cadastralUnitNumber",
+              "<a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.value_x_">valueInteger</a>" : 15
             },
             {
-              "<a href="http://hl7.org/fhir/R5/extensibility.html#Extension#Extension.url">url</a>" : "propertyUnitNumber",
-              "<a href="http://hl7.org/fhir/R5/extensibility.html#Extension#Extension.value[x]">valueInteger</a>" : 557
+              "<a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.url">url</a>" : "propertyUnitNumber",
+              "<a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.value_x_">valueInteger</a>" : 557
             },
             {
-              "<a href="http://hl7.org/fhir/R5/extensibility.html#Extension#Extension.url">url</a>" : "municipality",
-              "<a href="http://hl7.org/fhir/R5/extensibility.html#Extension#Extension.value[x]">valueCoding</a>" : {
-                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "urn:oid:2.16.578.1.12.4.1.1.3402",
-                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "1201",
-                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">display</a>" : "Bergen"
+              "<a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.url">url</a>" : "municipality",
+              "<a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.value_x_">valueCoding</a>" : {
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a>" : "urn:oid:2.16.578.1.12.4.1.1.3402",
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a>" : "1201",
+                "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a>" : "Bergen"
               }
             }
           ],
-          "<a href="http://hl7.org/fhir/R5/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.no/fhir/StructureDefinition/no-basis-propertyinformation"
+          "<a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.url">url</a>" : "http://hl7.no/fhir/StructureDefinition/no-basis-propertyinformation"
         },
         {
-          "<a href="http://hl7.org/fhir/R5/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.no/fhir/StructureDefinition/no-basis-address-official",
-          "<a href="http://hl7.org/fhir/R5/extensibility.html#Extension#Extension.value[x]">valueBoolean</a>" : true
+          "<a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.url">url</a>" : "http://hl7.no/fhir/StructureDefinition/no-basis-address-official",
+          "<a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.value_x_">valueBoolean</a>" : true
         }
       ],
-      "<a href="http://hl7.org/fhir/R5/datatypes.html#Address#Address.use">use</a>" : "home",
-      "<a href="http://hl7.org/fhir/R5/datatypes.html#Address#Address.line">line</a>" : [
+      "<a href="http://hl7.org/fhir/R5/datatypes.html#Address#XAddress.use">use</a>" : "home",
+      "<a href="http://hl7.org/fhir/R5/datatypes.html#Address#XAddress.line">line</a>" : [
         "Nyhaugveien 3"
       ],
-      "<a href="http://hl7.org/fhir/R5/datatypes.html#Address#Address.city">city</a>" : "BERGEN",
-      "<a href="http://hl7.org/fhir/R5/datatypes.html#Address#Address.district">district</a>" : "BERGEN",
-      "<a href="http://hl7.org/fhir/R5/datatypes.html#Address#Address.postalCode">postalCode</a>" : "5067",
-      "<a href="http://hl7.org/fhir/R5/datatypes.html#Address#Address.country">country</a>" : "NO"
+      "<a href="http://hl7.org/fhir/R5/datatypes.html#Address#XAddress.city">city</a>" : "BERGEN",
+      "<a href="http://hl7.org/fhir/R5/datatypes.html#Address#XAddress.district">district</a>" : "BERGEN",
+      "<a href="http://hl7.org/fhir/R5/datatypes.html#Address#XAddress.postalCode">postalCode</a>" : "5067",
+      "<a href="http://hl7.org/fhir/R5/datatypes.html#Address#XAddress.country">country</a>" : "NO"
     }
   ]
 }</code></pre>
@@ -362,20 +352,14 @@
   <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
   <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
 
-  <script type="text/javascript">
-    $(document).ready(function(){
-      if(window.location.hash != "") {
-          $('a[href="' + window.location.hash + '"]').click()
-      }
-    });
-  </script>
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
   <a name="bottom"> </a>
   <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
     <div class="container">  <!-- container -->
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href=""></a>.  Package hl7.fhir.no.basis#3.0.0-alpha based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Tue, Jun 13, 2023 20:52+0000">2023-06-13</span>
+          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href=""></a>.  Package hl7.fhir.no.basis#3.0.0-alpha based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Sun, Oct 4, 2026 16:26+0000">2026-10-04</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
@@ -393,7 +377,7 @@
     <div class="container">  <!-- container -->
     </div>  <!-- /container -->
   </div>  <!-- /segment-post-footer -->
-  
+
   <!-- JS and analytics only. -->
   <!-- Bootstrap core JavaScript
   ================================================== -->
@@ -403,16 +387,7 @@
   <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
   <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
   <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
-  <script>anchors.options.visible = 'hover'
-anchors.add()</script>
-  
-<!-- feedback form - Google forms -->
-<!-- v0.1, 2021-01-09 -->
-
-
-
-<!-- / feedback form  -->
-
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
   <!-- Analytics Below
   ================================================== -->
   </body>

@@ -5,7 +5,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>HL7.FHIR.NO.BASIS\Direktoratet-for-eHelse-Organization - XML Representation - FHIR v5.0.0</title>
+    <title>Direktoratet-for-eHelse-Organization - XML Representation -  v3.0.0-alpha</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -20,6 +20,7 @@
     <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
     <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
   	<link href="assets/css/prism.css" rel="stylesheet" />
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
     <!-- Placeholder for child template CSS declarations -->
     <link href="assets/css/hl7.css" rel="stylesheet"/>
     <link href="assets/css/fhir.css" rel="stylesheet"/>
@@ -33,20 +34,22 @@
     <![endif]-->
 
     <!-- Favicons -->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png"/>
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png"/>
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png"/>
-    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/icon-fhir-57.png"/>
     <link rel="shortcut icon" href="assets/ico/favicon.png"/>
   </head>
   <body onload="document.body.style.opacity='1'">
 
 	  <script src="assets/js/prism.js"></script>
-
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
     <style type="text/css">h2{--heading-prefix:"5.57"}
     h3,h4,h5,h6{--heading-prefix:"5.57"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
+
         <!-- Placeholder for child template header declarations -->
 
             
@@ -181,7 +184,7 @@
           <div class="inner-wrapper">
 
 <div style="counter-reset: section 7" class="col-12">
-<!--ReleaseHeader--><p id="publish-box">Publication Build: This will be filled in by the publication tooling</p><!--EndReleaseHeader-->
+<!--ReleaseHeader--><p id="publish-box">NoBasis - Downloaded Version 3.0.0-alpha See the <a href="http://hl7.no/fhir/history.html">Directory of published versions</a></p></p><!--EndReleaseHeader-->
 
 
 
@@ -228,18 +231,6 @@
 
 
 <h2 id="root">: Direktoratet-for-eHelse-Organization - XML Representation</h2>
-  <table class="colsi">
-    <tr>
-
-      <td colspan="2">
-        
-          
-          
-        
-      </td>
-
-    </tr>
-  </table>
 
 
 <p><a href="Organization-Direktoratet-for-eHelse-Organization.xml" no-download="true">Raw xml</a> | <a href="Organization-Direktoratet-for-eHelse-Organization.xml" download>Download</a></p>
@@ -249,48 +240,47 @@
 
 
 
-  <pre class="xml" style="white-space: pre; overflow: hidden"><code class="language-xml">
-
-&lt;<a href="http://hl7.org/fhir/R5/organization.html#Organization">Organization</a> xmlns=&quot;http://hl7.org/fhir&quot;&gt;
-  &lt;<a href="http://hl7.org/fhir/R5/organization.html#Organization.id">id</a> <a href="http://hl7.org/fhir/R5/datatypes.html#id">value</a>=&quot;Direktoratet-for-eHelse-Organization&quot;/&gt;
-  &lt;<a href="http://hl7.org/fhir/R5/organization.html#Organization.meta">meta</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R5/resource.html#Meta#Meta.profile">profile</a>
+  <pre class="xml" data-fhir="generated" style="white-space: pre; text-wrap: nowrap; width: auto;"><code class="language-xml" style="white-space: pre; text-wrap: nowrap;">
+&lt;<a href="http://hl7.org/fhir/R5/organization.html#XOrganization">Organization</a> xmlns=&quot;http://hl7.org/fhir&quot;&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/resource.html#XOrganization.id">id</a> <a href="http://hl7.org/fhir/R5/datatypes.html#id">value</a>=&quot;Direktoratet-for-eHelse-Organization&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/resource.html#XOrganization.meta">meta</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/resource.html#Meta#XMeta.profile">profile</a>
              <a href="http://hl7.org/fhir/R5/datatypes.html#canonical">value</a>=&quot;http://hl7.no/fhir/StructureDefinition/no-basis-Organization&quot;/&gt;
-  &lt;/meta&gt;
-  &lt;<a href="http://hl7.org/fhir/R5/organization.html#Organization.text">text</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
-    &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;p&gt;&lt;b&gt;Generated Narrative: Organization&lt;/b&gt;&lt;a name=&quot;Direktoratet-for-eHelse-Organization&quot;&gt; &lt;/a&gt;&lt;/p&gt;&lt;div style=&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%&quot;&gt;&lt;p style=&quot;margin-bottom: 0px&quot;&gt;Resource Organization &amp;quot;Direktoratet-for-eHelse-Organization&amp;quot; &lt;/p&gt;&lt;p style=&quot;margin-bottom: 0px&quot;&gt;Profile: &lt;a href=&quot;StructureDefinition-no-basis-Organization.html&quot;&gt;no-basis-Organization&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: id: 915933149&lt;/p&gt;&lt;p&gt;&lt;b&gt;name&lt;/b&gt;: Direktoratet for e-Helse&lt;/p&gt;&lt;h3&gt;Contacts&lt;/h3&gt;&lt;table class=&quot;grid&quot;&gt;&lt;tr&gt;&lt;td&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Address&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;*&lt;/td&gt;&lt;td&gt;Postboks 221 Skøyen OSLO 0213 &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;*&lt;/td&gt;&lt;td&gt;Verkstedveien 1 OSLO 0277 &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;<a name="end-xhtml"></a>
-  &lt;/text&gt;
-  &lt;<a href="http://hl7.org/fhir/R5/organization.html#Organization.identifier">identifier</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;urn:oid:2.16.578.1.12.4.1.4.101&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">value</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;915933149&quot;/&gt;
-  &lt;/identifier&gt;
-  &lt;<a href="http://hl7.org/fhir/R5/organization.html#Organization.name">name</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Direktoratet for e-Helse&quot;/&gt;
-  &lt;<a href="http://hl7.org/fhir/R5/organization.html#Organization.contact">contact</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R5/metadatatypes.html#ExtendedContactDetail#ExtendedContactDetail.address">address</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Address#Address.extension">extension</a>
+  &lt;/<a href="http://hl7.org/fhir/R5/resource.html#XOrganization.meta">meta</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/domainresource.html#XOrganization.text">text</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
+    &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;p class=&quot;res-header-id&quot;&gt;&lt;b&gt;Generated Narrative: Organization Direktoratet-for-eHelse-Organization&lt;/b&gt;&lt;/p&gt;&lt;a name=&quot;Direktoratet-for-eHelse-Organization&quot;&gt; &lt;/a&gt;&lt;a name=&quot;hcDirektoratet-for-eHelse-Organization&quot;&gt; &lt;/a&gt;&lt;div style=&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%&quot;&gt;&lt;p style=&quot;margin-bottom: 0px&quot;/&gt;&lt;p style=&quot;margin-bottom: 0px&quot;&gt;Profile: &lt;a href=&quot;StructureDefinition-no-basis-Organization.html&quot;&gt;no-basis-Organization&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;urn:oid:2.16.578.1.12.4.1.4.101&lt;/code&gt;/915933149&lt;/p&gt;&lt;p&gt;&lt;b&gt;name&lt;/b&gt;: Direktoratet for e-Helse&lt;/p&gt;&lt;h3&gt;Contacts&lt;/h3&gt;&lt;table class=&quot;grid&quot;&gt;&lt;tr&gt;&lt;td style=&quot;display: none&quot;&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Address&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;display: none&quot;&gt;*&lt;/td&gt;&lt;td&gt;Postboks 221 Skøyen OSLO 0213 &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;display: none&quot;&gt;*&lt;/td&gt;&lt;td&gt;Verkstedveien 1 OSLO 0277 &lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;<a name="end-xhtml"></a>
+  &lt;/<a href="http://hl7.org/fhir/R5/domainresource.html#XOrganization.text">text</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/organization.html#XOrganization.identifier">identifier</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;urn:oid:2.16.578.1.12.4.1.4.101&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#XIdentifier.value">value</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;915933149&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R5/organization.html#XOrganization.identifier">identifier</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/organization.html#XOrganization.name">name</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Direktoratet for e-Helse&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/organization.html#XOrganization.contact">contact</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/metadatatypes.html#ExtendedContactDetail#XExtendedContactDetail.address">address</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/types.html#Element#XAddress.extension">extension</a>
                  <a href="http://hl7.org/fhir/R5/datatypes.html#uri">url</a>=&quot;http://hl7.no/fhir/StructureDefinition/no-basis-address-official&quot;&gt;
-        &lt;<a href="http://hl7.org/fhir/R5/extensibility.html#Extension#Extension.value[x]">valueBoolean</a> <a href="http://hl7.org/fhir/R5/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
-      &lt;/extension&gt;
-      &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Address#Address.type">type</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;postal&quot;/&gt;
-      &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Address#Address.line">line</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Postboks 221 Skøyen&quot;/&gt;
-      &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Address#Address.city">city</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;OSLO&quot;/&gt;
-      &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Address#Address.postalCode">postalCode</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;0213&quot;/&gt;
-    &lt;/address&gt;
-  &lt;/contact&gt;
-  &lt;<a href="http://hl7.org/fhir/R5/organization.html#Organization.contact">contact</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R5/metadatatypes.html#ExtendedContactDetail#ExtendedContactDetail.address">address</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Address#Address.extension">extension</a>
+        &lt;<a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.value_x_">valueBoolean</a> <a href="http://hl7.org/fhir/R5/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R5/types.html#Element#XAddress.extension">extension</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Address#XAddress.type">type</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;postal&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Address#XAddress.line">line</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Postboks 221 Skøyen&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Address#XAddress.city">city</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;OSLO&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Address#XAddress.postalCode">postalCode</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;0213&quot;/&gt;
+    &lt;/<a href="http://hl7.org/fhir/R5/metadatatypes.html#ExtendedContactDetail#XExtendedContactDetail.address">address</a>&gt;
+  &lt;/<a href="http://hl7.org/fhir/R5/organization.html#XOrganization.contact">contact</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/organization.html#XOrganization.contact">contact</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/metadatatypes.html#ExtendedContactDetail#XExtendedContactDetail.address">address</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/types.html#Element#XAddress.extension">extension</a>
                  <a href="http://hl7.org/fhir/R5/datatypes.html#uri">url</a>=&quot;http://hl7.no/fhir/StructureDefinition/no-basis-address-official&quot;&gt;
-        &lt;<a href="http://hl7.org/fhir/R5/extensibility.html#Extension#Extension.value[x]">valueBoolean</a> <a href="http://hl7.org/fhir/R5/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
-      &lt;/extension&gt;
-      &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Address#Address.type">type</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;physical&quot;/&gt;
-      &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Address#Address.line">line</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Verkstedveien 1&quot;/&gt;
-      &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Address#Address.city">city</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;OSLO&quot;/&gt;
-      &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Address#Address.postalCode">postalCode</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;0277&quot;/&gt;
-    &lt;/address&gt;
-  &lt;/contact&gt;
-&lt;/Organization&gt;</code></pre>
+        &lt;<a href="http://hl7.org/fhir/R5/extensibility.html#Extension#XExtension.value_x_">valueBoolean</a> <a href="http://hl7.org/fhir/R5/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
+      &lt;/<a href="http://hl7.org/fhir/R5/types.html#Element#XAddress.extension">extension</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Address#XAddress.type">type</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;physical&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Address#XAddress.line">line</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Verkstedveien 1&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Address#XAddress.city">city</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;OSLO&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Address#XAddress.postalCode">postalCode</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;0277&quot;/&gt;
+    &lt;/<a href="http://hl7.org/fhir/R5/metadatatypes.html#ExtendedContactDetail#XExtendedContactDetail.address">address</a>&gt;
+  &lt;/<a href="http://hl7.org/fhir/R5/organization.html#XOrganization.contact">contact</a>&gt;
+&lt;/<a href="http://hl7.org/fhir/R5/organization.html#XOrganization">Organization</a>&gt;</code></pre>
 
 
   <!-- insert notes if present -->
@@ -307,20 +297,14 @@
   <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
   <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
 
-  <script type="text/javascript">
-    $(document).ready(function(){
-      if(window.location.hash != "") {
-          $('a[href="' + window.location.hash + '"]').click()
-      }
-    });
-  </script>
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
   <a name="bottom"> </a>
   <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
     <div class="container">  <!-- container -->
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href=""></a>.  Package hl7.fhir.no.basis#3.0.0-alpha based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Tue, Jun 13, 2023 20:52+0000">2023-06-13</span>
+          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href=""></a>.  Package hl7.fhir.no.basis#3.0.0-alpha based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Sun, Oct 4, 2026 16:26+0000">2026-10-04</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
@@ -338,7 +322,7 @@
     <div class="container">  <!-- container -->
     </div>  <!-- /container -->
   </div>  <!-- /segment-post-footer -->
-  
+
   <!-- JS and analytics only. -->
   <!-- Bootstrap core JavaScript
   ================================================== -->
@@ -348,16 +332,7 @@
   <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
   <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
   <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
-  <script>anchors.options.visible = 'hover'
-anchors.add()</script>
-  
-<!-- feedback form - Google forms -->
-<!-- v0.1, 2021-01-09 -->
-
-
-
-<!-- / feedback form  -->
-
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
   <!-- Analytics Below
   ================================================== -->
   </body>

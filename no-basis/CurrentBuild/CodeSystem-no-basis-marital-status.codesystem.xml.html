@@ -5,7 +5,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>HL7.FHIR.NO.BASIS\no-basis-marital-status.codesystem - XML Representation - FHIR v5.0.0</title>
+    <title>no-basis-marital-status.codesystem - XML Representation -  v3.0.0-alpha</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -20,6 +20,7 @@
     <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
     <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
   	<link href="assets/css/prism.css" rel="stylesheet" />
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
     <!-- Placeholder for child template CSS declarations -->
     <link href="assets/css/hl7.css" rel="stylesheet"/>
     <link href="assets/css/fhir.css" rel="stylesheet"/>
@@ -33,20 +34,22 @@
     <![endif]-->
 
     <!-- Favicons -->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png"/>
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png"/>
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png"/>
-    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/icon-fhir-57.png"/>
     <link rel="shortcut icon" href="assets/ico/favicon.png"/>
   </head>
   <body onload="document.body.style.opacity='1'">
 
 	  <script src="assets/js/prism.js"></script>
-
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
     <style type="text/css">h2{--heading-prefix:"5.47"}
     h3,h4,h5,h6{--heading-prefix:"5.47"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
+
         <!-- Placeholder for child template header declarations -->
 
             
@@ -181,7 +184,7 @@
           <div class="inner-wrapper">
 
 <div style="counter-reset: section 7" class="col-12">
-<!--ReleaseHeader--><p id="publish-box">Publication Build: This will be filled in by the publication tooling</p><!--EndReleaseHeader-->
+<!--ReleaseHeader--><p id="publish-box">NoBasis - Downloaded Version 3.0.0-alpha See the <a href="http://hl7.no/fhir/history.html">Directory of published versions</a></p></p><!--EndReleaseHeader-->
 
 
 
@@ -228,6 +231,7 @@
 
 
 <h2 id="root">: no-basis-marital-status.codesystem - XML Representation</h2>
+
   <table class="colsi">
     <tr>
 
@@ -251,90 +255,87 @@
 
 
 
-  <pre class="xml" style="white-space: pre; overflow: hidden"><code class="language-xml">
-
-&lt;<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem">CodeSystem</a> xmlns=&quot;http://hl7.org/fhir&quot;&gt;
-  &lt;<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.id">id</a> <a href="http://hl7.org/fhir/R5/datatypes.html#id">value</a>=&quot;no-basis-marital-status.codesystem&quot;/&gt;
-  &lt;<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.meta">meta</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R5/resource.html#Meta#Meta.versionId">versionId</a> <a href="http://hl7.org/fhir/R5/datatypes.html#id">value</a>=&quot;1&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R5/resource.html#Meta#Meta.lastUpdated">lastUpdated</a> <a href="http://hl7.org/fhir/R5/datatypes.html#instant">value</a>=&quot;2019-05-07T00:00:00+00:00&quot;/&gt;
-  &lt;/meta&gt;
-  &lt;<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.text">text</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
-    &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;p&gt;This code system &lt;code&gt;http://hl7.no/fhir/CodeSystem/no-basis-marital-status&lt;/code&gt; defines the following codes:&lt;/p&gt;&lt;table class=&quot;codes&quot;&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Display&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Definition&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;uoppgitt&lt;a name=&quot;no-basis-marital-status.codesystem-uoppgitt&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Uoppgitt&lt;/td&gt;&lt;td&gt;sivilstand er ikke stadfestet med godkjent grunnlag&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;ugift&lt;a name=&quot;no-basis-marital-status.codesystem-ugift&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Ugift&lt;/td&gt;&lt;td&gt;person som aldri har inngått ekteskap&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;gift&lt;a name=&quot;no-basis-marital-status.codesystem-gift&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Gift&lt;/td&gt;&lt;td&gt;person som er i et ekteskap&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;enkeEllerEnkemann&lt;a name=&quot;no-basis-marital-status.codesystem-enkeEllerEnkemann&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Enke eller enkemann&lt;/td&gt;&lt;td&gt;gjenlevende person fra et ekteskap&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;skilt&lt;a name=&quot;no-basis-marital-status.codesystem-skilt&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Skilt&lt;/td&gt;&lt;td&gt;person som er lovlig skilt fra tidligere ektefelle&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;separert&lt;a name=&quot;no-basis-marital-status.codesystem-separert&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Separert&lt;/td&gt;&lt;td&gt;person som er i en separasjonsperiode fra sin ektefelle&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;registrertPartner&lt;a name=&quot;no-basis-marital-status.codesystem-registrertPartner&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Registrert partner&lt;/td&gt;&lt;td&gt;person som er i et partnerskap iht partnerskapsloven&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;separertPartner&lt;a name=&quot;no-basis-marital-status.codesystem-separertPartner&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Separert partner&lt;/td&gt;&lt;td&gt;person som er i en separasjonsperiode fra sin partner&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;skiltPartner&lt;a name=&quot;no-basis-marital-status.codesystem-skiltPartner&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Skilt partner&lt;/td&gt;&lt;td&gt;person som er lovlig skilt fra tidligere partner&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;gjenlevende_partner&lt;a name=&quot;no-basis-marital-status.codesystem-gjenlevende_partner&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Gjenlevende partner&lt;/td&gt;&lt;td&gt;gjenlevende person fra et partnerskap&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;<a name="end-xhtml"></a>
-  &lt;/text&gt;
-  &lt;<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.url">url</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;http://hl7.no/fhir/CodeSystem/no-basis-marital-status&quot;/&gt;
-  &lt;<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.version">version</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;3.0.0-alpha&quot;/&gt;
-  &lt;<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.name">name</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;NoBasisMaritalStatus&quot;/&gt;
-  &lt;<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.title">title</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;no-basis-marital-status.codesystem&quot;/&gt;
-  &lt;<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;active&quot;/&gt;
-  &lt;<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.date">date</a> <a href="http://hl7.org/fhir/R5/datatypes.html#dateTime">value</a>=&quot;2019-05-07T00:00:00+00:00&quot;/&gt;
-  &lt;<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.publisher">publisher</a>
-             <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Copy of Codes from Sivilstandstype defined by Skatteetaten&quot;/&gt;
-  &lt;<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.description">description</a>
+  <pre class="xml" data-fhir="generated" style="white-space: pre; text-wrap: nowrap; width: auto;"><code class="language-xml" style="white-space: pre; text-wrap: nowrap;">
+&lt;<a href="http://hl7.org/fhir/R5/codesystem.html#XCodeSystem">CodeSystem</a> xmlns=&quot;http://hl7.org/fhir&quot;&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/resource.html#XCodeSystem.id">id</a> <a href="http://hl7.org/fhir/R5/datatypes.html#id">value</a>=&quot;no-basis-marital-status.codesystem&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/resource.html#XCodeSystem.meta">meta</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/resource.html#Meta#XMeta.versionId">versionId</a> <a href="http://hl7.org/fhir/R5/datatypes.html#id">value</a>=&quot;1&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/resource.html#Meta#XMeta.lastUpdated">lastUpdated</a> <a href="http://hl7.org/fhir/R5/datatypes.html#instant">value</a>=&quot;2019-05-07T00:00:00+00:00&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R5/resource.html#XCodeSystem.meta">meta</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/domainresource.html#XCodeSystem.text">text</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#XNarrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
+    &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;p class=&quot;res-header-id&quot;&gt;&lt;b&gt;Generated Narrative: CodeSystem no-basis-marital-status.codesystem&lt;/b&gt;&lt;/p&gt;&lt;a name=&quot;no-basis-marital-status.codesystem&quot;&gt; &lt;/a&gt;&lt;a name=&quot;hcno-basis-marital-status.codesystem&quot;&gt; &lt;/a&gt;&lt;div style=&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%&quot;&gt;&lt;p style=&quot;margin-bottom: 0px&quot;&gt;version: 1; Last updated: 2019-05-07 00:00:00+0000&lt;/p&gt;&lt;/div&gt;&lt;p&gt;This  code system &lt;code&gt;http://hl7.no/fhir/CodeSystem/no-basis-marital-status&lt;/code&gt; defines the following codes:&lt;/p&gt;&lt;table class=&quot;codes&quot;&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Display&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Definition&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;uoppgitt&lt;a name=&quot;no-basis-marital-status.codesystem-uoppgitt&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Uoppgitt&lt;/td&gt;&lt;td&gt;sivilstand er ikke stadfestet med godkjent grunnlag&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;ugift&lt;a name=&quot;no-basis-marital-status.codesystem-ugift&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Ugift&lt;/td&gt;&lt;td&gt;person som aldri har inngått ekteskap&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;gift&lt;a name=&quot;no-basis-marital-status.codesystem-gift&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Gift&lt;/td&gt;&lt;td&gt;person som er i et ekteskap&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;enkeEllerEnkemann&lt;a name=&quot;no-basis-marital-status.codesystem-enkeEllerEnkemann&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Enke eller enkemann&lt;/td&gt;&lt;td&gt;gjenlevende person fra et ekteskap&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;skilt&lt;a name=&quot;no-basis-marital-status.codesystem-skilt&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Skilt&lt;/td&gt;&lt;td&gt;person som er lovlig skilt fra tidligere ektefelle&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;separert&lt;a name=&quot;no-basis-marital-status.codesystem-separert&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Separert&lt;/td&gt;&lt;td&gt;person som er i en separasjonsperiode fra sin ektefelle&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;registrertPartner&lt;a name=&quot;no-basis-marital-status.codesystem-registrertPartner&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Registrert partner&lt;/td&gt;&lt;td&gt;person som er i et partnerskap iht partnerskapsloven&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;separertPartner&lt;a name=&quot;no-basis-marital-status.codesystem-separertPartner&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Separert partner&lt;/td&gt;&lt;td&gt;person som er i en separasjonsperiode fra sin partner&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;skiltPartner&lt;a name=&quot;no-basis-marital-status.codesystem-skiltPartner&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Skilt partner&lt;/td&gt;&lt;td&gt;person som er lovlig skilt fra tidligere partner&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;gjenlevende_partner&lt;a name=&quot;no-basis-marital-status.codesystem-gjenlevende_partner&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Gjenlevende partner&lt;/td&gt;&lt;td&gt;gjenlevende person fra et partnerskap&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;<a name="end-xhtml"></a>
+  &lt;/<a href="http://hl7.org/fhir/R5/domainresource.html#XCodeSystem.text">text</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/codesystem.html#XCodeSystem.url">url</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;http://hl7.no/fhir/CodeSystem/no-basis-marital-status&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/codesystem.html#XCodeSystem.version">version</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;3.0.0-alpha&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/codesystem.html#XCodeSystem.name">name</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;NoBasisMaritalStatus&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/codesystem.html#XCodeSystem.title">title</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;no-basis-marital-status.codesystem&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/codesystem.html#XCodeSystem.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;active&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/codesystem.html#XCodeSystem.date">date</a> <a href="http://hl7.org/fhir/R5/datatypes.html#dateTime">value</a>=&quot;2019-05-07T00:00:00+00:00&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/codesystem.html#XCodeSystem.description">description</a>
                <a href="http://hl7.org/fhir/R5/datatypes.html#markdown">value</a>=&quot;Copy of Codes from Sivilstandstype defined by Skatteetaten&quot;/&gt;
-  &lt;<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.jurisdiction">jurisdiction</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;urn:iso:std:iso:3166&quot;/&gt;
-      &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;NO&quot;/&gt;
-      &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Norway&quot;/&gt;
-    &lt;/coding&gt;
-  &lt;/jurisdiction&gt;
-  &lt;<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.content">content</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;complete&quot;/&gt;
-  &lt;<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.count">count</a> <a href="http://hl7.org/fhir/R5/datatypes.html#unsignedInt">value</a>=&quot;10&quot;/&gt;
-  &lt;<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;uoppgitt&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Uoppgitt&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.definition">definition</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;sivilstand er ikke stadfestet med godkjent grunnlag&quot;/&gt;
-  &lt;/concept&gt;
-  &lt;<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;ugift&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Ugift&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.definition">definition</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;person som aldri har inngått ekteskap&quot;/&gt;
-  &lt;/concept&gt;
-  &lt;<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;gift&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Gift&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.definition">definition</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;person som er i et ekteskap&quot;/&gt;
-  &lt;/concept&gt;
-  &lt;<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;enkeEllerEnkemann&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Enke eller enkemann&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.definition">definition</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;gjenlevende person fra et ekteskap&quot;/&gt;
-  &lt;/concept&gt;
-  &lt;<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;skilt&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Skilt&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.definition">definition</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;person som er lovlig skilt fra tidligere ektefelle&quot;/&gt;
-  &lt;/concept&gt;
-  &lt;<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;separert&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Separert&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.definition">definition</a>
+  &lt;<a href="http://hl7.org/fhir/R5/codesystem.html#XCodeSystem.jurisdiction">jurisdiction</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;urn:iso:std:iso:3166&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;NO&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#XCoding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Norway&quot;/&gt;
+    &lt;/<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#XCodeableConcept.coding">coding</a>&gt;
+  &lt;/<a href="http://hl7.org/fhir/R5/codesystem.html#XCodeSystem.jurisdiction">jurisdiction</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/codesystem.html#XCodeSystem.content">content</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;complete&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/codesystem.html#XCodeSystem.count">count</a> <a href="http://hl7.org/fhir/R5/datatypes.html#unsignedInt">value</a>=&quot;10&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/codesystem.html#XCodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/codesystem.html#XCodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;uoppgitt&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/codesystem.html#XCodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Uoppgitt&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/codesystem.html#XCodeSystem.concept.definition">definition</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;sivilstand er ikke stadfestet med godkjent grunnlag&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R5/codesystem.html#XCodeSystem.concept">concept</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/codesystem.html#XCodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/codesystem.html#XCodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;ugift&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/codesystem.html#XCodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Ugift&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/codesystem.html#XCodeSystem.concept.definition">definition</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;person som aldri har inngått ekteskap&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R5/codesystem.html#XCodeSystem.concept">concept</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/codesystem.html#XCodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/codesystem.html#XCodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;gift&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/codesystem.html#XCodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Gift&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/codesystem.html#XCodeSystem.concept.definition">definition</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;person som er i et ekteskap&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R5/codesystem.html#XCodeSystem.concept">concept</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/codesystem.html#XCodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/codesystem.html#XCodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;enkeEllerEnkemann&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/codesystem.html#XCodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Enke eller enkemann&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/codesystem.html#XCodeSystem.concept.definition">definition</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;gjenlevende person fra et ekteskap&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R5/codesystem.html#XCodeSystem.concept">concept</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/codesystem.html#XCodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/codesystem.html#XCodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;skilt&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/codesystem.html#XCodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Skilt&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/codesystem.html#XCodeSystem.concept.definition">definition</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;person som er lovlig skilt fra tidligere ektefelle&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R5/codesystem.html#XCodeSystem.concept">concept</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/codesystem.html#XCodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/codesystem.html#XCodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;separert&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/codesystem.html#XCodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Separert&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/codesystem.html#XCodeSystem.concept.definition">definition</a>
                 <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;person som er i en separasjonsperiode fra sin ektefelle&quot;/&gt;
-  &lt;/concept&gt;
-  &lt;<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;registrertPartner&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Registrert partner&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.definition">definition</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;person som er i et partnerskap iht partnerskapsloven&quot;/&gt;
-  &lt;/concept&gt;
-  &lt;<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;separertPartner&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Separert partner&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.definition">definition</a>
+  &lt;/<a href="http://hl7.org/fhir/R5/codesystem.html#XCodeSystem.concept">concept</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/codesystem.html#XCodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/codesystem.html#XCodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;registrertPartner&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/codesystem.html#XCodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Registrert partner&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/codesystem.html#XCodeSystem.concept.definition">definition</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;person som er i et partnerskap iht partnerskapsloven&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R5/codesystem.html#XCodeSystem.concept">concept</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/codesystem.html#XCodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/codesystem.html#XCodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;separertPartner&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/codesystem.html#XCodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Separert partner&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/codesystem.html#XCodeSystem.concept.definition">definition</a>
                 <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;person som er i en separasjonsperiode fra sin partner&quot;/&gt;
-  &lt;/concept&gt;
-  &lt;<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;skiltPartner&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Skilt partner&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.definition">definition</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;person som er lovlig skilt fra tidligere partner&quot;/&gt;
-  &lt;/concept&gt;
-  &lt;<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept">concept</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;gjenlevende_partner&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Gjenlevende partner&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R5/codesystem.html#CodeSystem.concept.definition">definition</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;gjenlevende person fra et partnerskap&quot;/&gt;
-  &lt;/concept&gt;
-&lt;/CodeSystem&gt;</code></pre>
+  &lt;/<a href="http://hl7.org/fhir/R5/codesystem.html#XCodeSystem.concept">concept</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/codesystem.html#XCodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/codesystem.html#XCodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;skiltPartner&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/codesystem.html#XCodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Skilt partner&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/codesystem.html#XCodeSystem.concept.definition">definition</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;person som er lovlig skilt fra tidligere partner&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R5/codesystem.html#XCodeSystem.concept">concept</a>&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/codesystem.html#XCodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/codesystem.html#XCodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;gjenlevende_partner&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/codesystem.html#XCodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Gjenlevende partner&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/codesystem.html#XCodeSystem.concept.definition">definition</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;gjenlevende person fra et partnerskap&quot;/&gt;
+  &lt;/<a href="http://hl7.org/fhir/R5/codesystem.html#XCodeSystem.concept">concept</a>&gt;
+&lt;/<a href="http://hl7.org/fhir/R5/codesystem.html#XCodeSystem">CodeSystem</a>&gt;</code></pre>
 
 
   <!-- insert notes if present -->
@@ -351,20 +352,14 @@
   <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
   <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
 
-  <script type="text/javascript">
-    $(document).ready(function(){
-      if(window.location.hash != "") {
-          $('a[href="' + window.location.hash + '"]').click()
-      }
-    });
-  </script>
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
   <a name="bottom"> </a>
   <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
     <div class="container">  <!-- container -->
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href=""></a>.  Package hl7.fhir.no.basis#3.0.0-alpha based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Tue, Jun 13, 2023 20:52+0000">2023-06-13</span>
+          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href=""></a>.  Package hl7.fhir.no.basis#3.0.0-alpha based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Sun, Oct 4, 2026 16:26+0000">2026-10-04</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
@@ -382,7 +377,7 @@
     <div class="container">  <!-- container -->
     </div>  <!-- /container -->
   </div>  <!-- /segment-post-footer -->
-  
+
   <!-- JS and analytics only. -->
   <!-- Bootstrap core JavaScript
   ================================================== -->
@@ -392,16 +387,7 @@
   <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
   <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
   <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
-  <script>anchors.options.visible = 'hover'
-anchors.add()</script>
-  
-<!-- feedback form - Google forms -->
-<!-- v0.1, 2021-01-09 -->
-
-
-
-<!-- / feedback form  -->
-
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
   <!-- Analytics Below
   ================================================== -->
   </body>

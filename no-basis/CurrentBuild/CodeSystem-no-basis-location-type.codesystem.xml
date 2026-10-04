@@ -7,7 +7,7 @@
     <lastUpdated value="2019-05-07T00:00:00+00:00"/>
   </meta>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system <code>http://hl7.no/fhir/CodeSystem/no-basis-location-type</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">video<a name="no-basis-location-type.codesystem-video"> </a></td><td>Video</td><td>Any two-way video+audio communication/conference system</td></tr><tr><td style="white-space:nowrap">telephone<a name="no-basis-location-type.codesystem-telephone"> </a></td><td>Telephone</td><td>Telephone or other two-way audio communication</td></tr></table></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem no-basis-location-type.codesystem</b></p><a name="no-basis-location-type.codesystem"> </a><a name="hcno-basis-location-type.codesystem"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">version: 1; Last updated: 2019-05-07 00:00:00+0000</p></div><p>This  code system <code>http://hl7.no/fhir/CodeSystem/no-basis-location-type</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">video<a name="no-basis-location-type.codesystem-video"> </a></td><td>Video</td><td>Any two-way video+audio communication/conference system</td></tr><tr><td style="white-space:nowrap">telephone<a name="no-basis-location-type.codesystem-telephone"> </a></td><td>Telephone</td><td>Telephone or other two-way audio communication</td></tr></table></div>
   </text>
   <url value="http://hl7.no/fhir/CodeSystem/no-basis-location-type"/>
   <version value="3.0.0-alpha"/>
@@ -15,7 +15,6 @@
   <title value="no-basis-location-type.codesystem"/>
   <status value="draft"/>
   <date value="2021-12-16T00:00:00+00:00"/>
-  <publisher value="HL7 Norway"/>
   <description value="Additional codes for location.type used by no-basis-Location"/>
   <jurisdiction>
     <coding>
